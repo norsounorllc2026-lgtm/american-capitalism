@@ -1,0 +1,273 @@
+{
+ "populationShare": {
+  "year": 2025,
+  "white": 56.1,
+  "black": 13.5,
+  "hispanic": 20.5,
+  "note": "White = White alone, not Hispanic. Black = Black alone (14.4% counting Black in combination with another race). Hispanic = any race.",
+  "source": {
+   "name": "U.S. Census Bureau QuickFacts, Vintage 2025 estimates (July 1, 2025)",
+   "url": "https://www.census.gov/quickfacts/fact/table/US/PST045223"
+  }
+ },
+ "employerShare2023": {
+  "white": 80.6,
+  "black": 3.4,
+  "hispanic": 8.4,
+  "firms": {
+   "white": 4800000,
+   "black": 201000,
+   "hispanic": 496000
+  },
+  "receipts": {
+   "white": 17000000000000.0,
+   "black": 249000000000.0,
+   "hispanic": 730300000000.0
+  },
+  "note": "Census counts a firm by owner race regardless of Hispanic origin, so “White-owned” here includes Hispanic White owners; the population share does not.",
+  "source": {
+   "name": "U.S. Census Bureau, 2024 Annual Business Survey (data year 2023), Nov 20, 2025",
+   "url": "https://www.census.gov/newsroom/press-releases/2025/business-owner-characteristics.html"
+  }
+ },
+ "employerGrowth": {
+  "black": {
+   "2017": 124004,
+   "2023": 201000
+  },
+  "hispanic": {
+   "2017": 322076,
+   "2023": 496000
+  },
+  "whitePctBrookings": 38,
+  "hispanicPctBrookings": 125,
+  "blackPctBrookings": 62,
+  "note": "From Census counts, Hispanic-owned employer firms grew 54% (322,076 → 496,000). Brookings reports +125% for “Latino or Hispanic” firms over the same years, likely a different ownership definition. Brookings’ +62% for Black-owned firms matches Census. White growth is Brookings-only.",
+  "sources": [
+   {
+    "name": "U.S. Census Bureau, Annual Business Survey (data year 2017), May 2020",
+    "url": "https://www.census.gov/newsroom/press-releases/2020/annual-business-survey-data.html"
+   },
+   {
+    "name": "Brookings: Black employers are reaching new heights",
+    "url": "https://www.brookings.edu/articles/black-employers-are-reaching-new-heights"
+   },
+   {
+    "name": "U.S. Census Bureau, 2024 Annual Business Survey",
+    "url": "https://www.census.gov/newsroom/press-releases/2025/business-owner-characteristics.html"
+   }
+  ]
+ },
+ "allFirms": {
+  "label": "All firms owned, including self-employed (nonemployer) businesses",
+  "years": [
+   1972,
+   1977,
+   1982,
+   1987,
+   1992,
+   1997,
+   2002,
+   2007,
+   2012
+  ],
+  "black": [
+   187602,
+   231203,
+   339239,
+   424165,
+   620912,
+   823499,
+   1200000,
+   1900000,
+   2600000
+  ],
+  "hispanic": [
+   null,
+   null,
+   null,
+   422373,
+   771708,
+   1199896,
+   1600000,
+   2300000,
+   3300000
+  ],
+  "estimated": {
+   "2002": "Derived from Census growth rates (Black +60.5%, Hispanic +44% to 2007); not a published count."
+  },
+  "note": "Survey methods changed between waves (1982 receipts floor, C-corporations excluded in 1987–92). 1992 Hispanic count: 771,708 in the National Academies compilation vs 862,605 in Census’s 1997 comparison table. Census ended this all-firms survey after 2012.",
+  "sources": [
+   {
+    "name": "National Academies Press, America Becoming Vol. II, ch. 9 (SMOBE 1972–1992)",
+    "url": "https://www.nationalacademies.org/read/9719/chapter/10"
+   },
+   {
+    "name": "U.S. Census Bureau, 1997 Survey of Minority-Owned Business Enterprises",
+    "url": "https://www2.census.gov/econ/sbo/97/e97cs-7.pdf"
+   },
+   {
+    "name": "U.S. Census Bureau, 2007 SBO Black-owned release",
+    "url": "https://www.census.gov/newsroom/releases/archives/business_ownership/cb11-24.html"
+   },
+   {
+    "name": "U.S. Census Bureau, Hispanic business ownership (2007 SBO)",
+    "url": "https://www.census.gov/newsroom/blogs/random-samplings/2010/10/hispanic-business-ownership.html"
+   },
+   {
+    "name": "U.S. Census Bureau, 2012 SBO release (Dec 2015)",
+    "url": "https://census.gov/newsroom/archives/2015-pr/cb15-209.html"
+   }
+  ]
+ },
+ "ownershipRates2022": {
+  "home": {
+   "white": 73.15,
+   "black": 46.34,
+   "hispanic": 51.09
+  },
+  "stock": {
+   "white": 65.61,
+   "black": 39.21,
+   "hispanic": 28.3
+  },
+  "business": {
+   "white": 15.97,
+   "black": 11.0,
+   "hispanic": 9.75
+  },
+  "source": {
+   "name": "Federal Reserve, FEDS Notes (Oct 2023), 2022 SCF",
+   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html"
+  }
+ },
+ "homeownershipLatest": {
+  "period": "Q3 2026",
+  "white": 75.1,
+  "black": 44.4,
+  "hispanic": 48.1,
+  "fred": {
+   "white": "NHWAHORUSQ156N",
+   "black": "BOAAAHORUSQ156N",
+   "hispanic": "HOLHORUSQ156N"
+  },
+  "note": "Census Housing Vacancy Survey (via FRED), not seasonally adjusted. White = non-Hispanic White; Black = Black alone.",
+  "source": {
+   "name": "U.S. Census Bureau CPS/HVS via FRED, St. Louis Fed",
+   "url": "https://fred.stlouisfed.org/series/BOAAAHORUSQ156N"
+  }
+ },
+ "venture": {
+  "blackShare": {
+   "2021": 1.3,
+   "2023": 0.5,
+   "2024": 0.48
+  },
+  "latinoShare": {
+   "2021": 2.0
+  },
+  "dollarsHarlemCapital": {
+   "2021": {
+    "black": 5073,
+    "latino": 8413
+   },
+   "2024": {
+    "black": 1190,
+    "latino": 1747
+   }
+  },
+  "note": "Share of all U.S. venture dollars. No consistent White-founder share is published; Latino share for 2023–24 was not found in a primary source.",
+  "sources": [
+   {
+    "name": "POCIT, citing Crunchbase (Mar 2025)",
+    "url": "https://peopleofcolorintech.com/articles/black-founders-received-just-0-4-of-all-startup-funding-in-2024/"
+   },
+   {
+    "name": "dot.LA (Jan 2022): Latino founders 2% of venture funding in 2021",
+    "url": "https://dot.la/tag/vcfamilia"
+   },
+   {
+    "name": "Harlem Capital, 2024 Diverse Founder Report ($M raised by $1M+ startups)",
+    "url": "https://harlem.capital/wp-content/uploads/2025/03/2024-HCP-Diverse-Founder-Report.pdf"
+   }
+  ]
+ },
+ "patents": {
+  "facts": [
+   {
+    "value": "92",
+    "label": "Black patentees entered into the Congressional Record by Rep. George W. Murray",
+    "year": 1894
+   },
+   {
+    "value": "370",
+    "label": "Black-held patents identified by Henry E. Baker",
+    "year": 1900
+   },
+   {
+    "value": "~800",
+    "label": "Patents Baker could confirm from about 1,200 leads",
+    "year": 1913
+   },
+   {
+    "value": "~2,000",
+    "label": "U.S. patents to Black inventors listed by Patricia Carter Sluby, 1821–2003",
+    "year": 2003
+   },
+   {
+    "value": "3×",
+    "label": "White children are about three times as likely as Black children to grow up to be inventors (study cited by the Smithsonian Lemelson Center)",
+    "year": "Cited in 2021 report"
+   }
+  ],
+  "note": "The USPTO has never recorded inventor race, so every count is a researched lower bound.",
+  "sources": [
+   {
+    "name": "Smithsonian Lemelson Center, Black Inventors and Innovators report (2021)",
+    "url": "https://webcf.waybackmachine.org/web/20230329153711/https://invention.si.edu/sites/default/files/Lemelson-Center-Black-Inventors-Innovators-Report-updated-2021-10.pdf"
+   },
+   {
+    "name": "USPTO: Beyond Baker’s list",
+    "url": "https://www.uspto.gov/blog/beyond-baker-rsquo-s-list"
+   }
+  ]
+ },
+ "externalProjections": [
+  {
+   "who": "Institute for Policy Studies & Prosperity Now (2017), The Road to Zero Wealth",
+   "claim": "If 1983–2013 trends continued, Black median wealth would reach zero by 2053 and Latino by 2073.",
+   "check": "Later Fed data ran the other way through 2022 (Black median up to $49,100 in 2025 dollars) before falling 25% by 2025. Treat as a scenario, not a forecast.",
+   "url": "https://www.coloradotrust.org/wp-content/uploads/sites/2/2017/11/road_to_zero_wealth.pdf"
+  },
+  {
+   "who": "Derenoncourt, Kim, Kuhn & Schularick (2022)",
+   "claim": "With today’s wealth-building conditions, the White-to-Black per-capita gap stops closing; convergence would take centuries without equal capital gains and savings conditions.",
+   "check": "Their measured gap has stayed between 5 and 7 to 1 for 70 years.",
+   "url": "https://www.nber.org/system/files/working_papers/w30101/w30101.pdf"
+  },
+  {
+   "who": "St. Louis Fed (2014)",
+   "claim": "The Hispanic share of U.S. wealth could roughly triple by 2025, driven by population growth.",
+   "check": "Hispanic median wealth did rise faster than any group 2019–2025 (SCF), but stayed under one-quarter of White median wealth.",
+   "url": "https://stlouisfed.org/on-the-economy/2014/july/wealth-share-of-hispanic-population-may-triple-by-2025"
+  }
+ ],
+ "blackEmployers2023": {
+  "firms": 201000,
+  "receipts": 249000000000.0,
+  "employees": 1900000,
+  "payroll": 69800000000.0,
+  "firms2017": 124004,
+  "note": "Employees: Census reports 1.9 million for 2023; Brookings, using the same survey, describes “over 1.8 million” jobs.",
+  "sources": [
+   {
+    "name": "U.S. Census Bureau, Measuring Black Enterprise (data year 2023)",
+    "url": "https://www.census.gov/content/dam/Census/library/visualizations/2026/comm/measuring-black-enterprise.pdf"
+   },
+   {
+    "name": "Brookings: Black employers are reaching new heights",
+    "url": "https://www.brookings.edu/articles/black-employers-are-reaching-new-heights"
+   }
+  ]
+ }
+}
