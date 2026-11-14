@@ -1,5 +1,5 @@
 {
- "collected": "2026-11-11",
+ "collected": "2026-11-14",
  "candidates": [
   {
    "headline": "7 Times Melissa Butler’s The Lip Bar Prioritized Black Women",
@@ -23,13 +23,6 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Beyond the headlines: Haitian-American entrepreneur Jonathan Pierre-Lafleur builds jobs, culture and community in Brooklyn",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVHRBU3NsT0kzUWtkLXdabDZDVkQ4VXBGdWFJYnhQb3lpVVU3cGdPQU9scVI3RmotMkpvd0lKdFptclF0ZjN5OFp4Vjdlc0hYUlQyT2lfMVRYS1Y2UkpTemZFS0ttMHNLNGtIUGlobDJYeEpaYjZCTFhGUkUyNzBXbGQ4Mm1vNFR0Tl9pNW9MVWZqekpVV2pRU3Mza1BsTjBURFNaMm1idHNOTzlldVd6ek1YV0F0YnRuLW1ac2k1VTN5OGdmSVhmVHN4VkNwNnhVZkpFa3ZqQlo5S2haTlMyT2VZVjAydw?oc=5",
-   "source": "Caribbean Life News",
-   "date": "2026-11-05",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
    "headline": "Jamaican-born attorney Tamar Hamilton elected to Broward County circuit court bench",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjZwM0RoMlNGMXQzc2dsbUUzVFhkRFBsZDJfWWJ1YS1GbUxPU241b2lIbnE1Z3hhbWdqVF9xdmpLeTRPN0lOWWdpeWF6RG56Q2NLcWY0NXZ6RFRWNFN3M0NiM0RRbFcyYWp2bDFNN1RnS2RBd0ZEcVBweFRVRVVkVXVoV1RYbWI1a2x2RzFwalZRMHlYX1E3U2syOHFVWnVtRVpobVJ4NHAzZFJYT24ta3J4YzZSNzdVRlNFNS04VUhRR1VxQ29BeA?oc=5",
    "source": "Caribbean National Weekly",
@@ -37,17 +30,10 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Jamaican-American candidates secure election victories in South Florida",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHg3bWFFWWlNQ0Z5NDQyYmxHbFZqMm5hejRqbldTZkJ0M1VyeVNaUkVTZEZuaVBKX09IakdQZk9EOHBfTlBjYXE1dU55UWw0VHNTRnNDeWhxbWhiTGJFd1pUQnRWek82dGpuY1A3VVE2d0hjazJZWmd1OVpZa1VyQldyX3dnejZYVVJ1MVd3eVBFUWxZRVh4Z2lXWmlTSDdqc0FnekViU3VLbTg?oc=5",
-   "source": "Caribbean National Weekly",
-   "date": "2026-11-04",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
-   "headline": "Island Icons Honors to celebrate Caribbean trailblazers shaping business, culture, and the arts",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEJEdjZKWEhDRlU3b0tjb3NSVVNWN1BaS0JRSjltQWxZVnFvUFM5emJ3d3EwRktiQTUzUTdNMGNCSlNQWWI1Z0c4djdmdTJzTkR3ZWdoYjh2SVh5eVFyblpYY0NBS0I5WHJ1MVliVDFHUkhodUE4VGc3Yl9EcFVZLQ?oc=5",
+   "headline": "Beyond the headlines: Haitian-American entrepreneur Jonathan Pierre-Lafleur builds jobs, culture and community in Brooklyn",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVHRBU3NsT0kzUWtkLXdabDZDVkQ4VXBGdWFJYnhQb3lpVVU3cGdPQU9scVI3RmotMkpvd0lKdFptclF0ZjN5OFp4Vjdlc0hYUlQyT2lfMVRYS1Y2UkpTemZFS0ttMHNLNGtIUGlobDJYeEpaYjZCTFhGUkUyNzBXbGQ4Mm1vNFR0Tl9pNW9MVWZqekpVV2pRU3Mza1BsTjBURFNaMm1idHNOTzlldVd6ek1YV0F0YnRuLW1ac2k1VTN5OGdmSVhmVHN4VkNwNnhVZkpFa3ZqQlo5S2haTlMyT2VZVjAydw?oc=5",
    "source": "Caribbean Life News",
-   "date": "2026-10-30",
+   "date": "2026-11-05",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -58,6 +44,13 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
+   "headline": "Island Icons Honors to celebrate Caribbean trailblazers shaping business, culture, and the arts",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEJEdjZKWEhDRlU3b0tjb3NSVVNWN1BaS0JRSjltQWxZVnFvUFM5emJ3d3EwRktiQTUzUTdNMGNCSlNQWWI1Z0c4djdmdTJzTkR3ZWdoYjh2SVh5eVFyblpYY0NBS0I5WHJ1MVliVDFHUkhodUE4VGc3Yl9EcFVZLQ?oc=5",
+   "source": "Caribbean Life News",
+   "date": "2026-10-30",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
    "headline": "Something Extra | Tuesday",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZjhIZ2dWaHNFZ1BDQ0ZCVzNkclJndm5sTUxabUpjWExGOHpyMnhFR0I4ampQOWlBYW5lRm1qSlJzQVhKM01oM05pQkszekxYU29DRTRKU0k5OC03X3pSWGxtSnBTWHBtUGFJb3ludWgwaHI4OV9NM2Z6ZU5GcWxMQVVlYw?oc=5",
    "source": "Jamaica Gleaner",
@@ -65,10 +58,10 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Today’s obituary: Dorothy Shabazz opened Syracuse’s first Black beauty supply store",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajY4RzVrQV9RWXBTaTExeC1tQW9RcVhURjhLOWU2MFQwbzhrVGJ5VHRJaUszemNrTElZSXZUYlBmb0hxQjlqVmpaUzBiTzVzSGs5YUhfbFh6bkVxVkZ5am0xMU9PRk5ZamRqRFpZeFNaNzloNDUyOFNGSDhqQThxMlR4bWphNnVjRnd2RUpUUVZSdWdvdUR2QngyQlBjTUJWQnF1LXRkRko5ZDBpWjg5MUJwWlk0Tmc2YzNUV2d5ZXk?oc=5",
-   "source": "Syracuse.com",
-   "date": "2026-11-05",
+   "headline": "DETROIT ENTREPRENEURS TO OPEN CITY'S FIRST BLACK-OWNED BEYOND JUICERY + EATERY IN UNIVERSITY DISTRICT",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRmdOaDZyQ2RYM2lHTnFLdnMzU2lZaXFwUjFvWEFVTGRuaTFYSkctNm45NlZJV0FtQ1BwTDBwLWpEZnNBMUxEaWNiS0k3R0d5V3BLeldXc0RXZnJ4VkhpQlZvNEV6X1FTcmNYYUdTMllJOWdjdmtpeHpWb3ZYMjFsMlRqWVlrbFhGcnQ0UTVrbng2Z1BMR0xCbWppeVQ1S3dVZ3NfSkN3bUdxRmk2Z1pybE02MWUtaWhPTF9XVVBQMmRYUF85bEZNX0RpUTlRenEyTzRrSG1Edi1VMGFkTFRXWmlaUnpodw?oc=5",
+   "source": "Knoxville News Sentinel",
+   "date": "2026-11-14",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -87,30 +80,37 @@
   },
   {
    "headline": "How to Market an Online Business in 2026",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aenU4WUs0azc0Sko1TFRJcDFMTkF2aFQ0NkM5c1F6TXZEZlU2M0xGRmhLUGhqd3ZVcnNSY240X0JwelhfaUdvNDlTRExMdkNWWjFrZmF1UkhlSFFza2NxNDdMZjBZRW50bnhrTGpn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FWjdOZXBXNzY0YVNuNU9oclhhSThnN3ZGSy1McEVmazl1SmpuM0s3SGJFeXFWa2p5dktVb244Z0tpdGpJeEV3UGdwMmp2UlFGZUpuSzZJbkFOU1FiVGVfaUw3MlhpQTdrbkE?oc=5",
    "source": "Shopify",
    "date": "2026-11-09",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "CACCI to Honor Community Visionaries and Pay Tribute to the Mighty Sparrow at Visionary Awards Gala",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTdnLW9xeXI4SWZrOVpLVFU3dHI0Z1NNUlZEZWV6THBSaV9nQUJDV2F6SXBnS0pEYXNVakVHR1ZjSVlhMXJ5VWxNaTVBVFo4UXlYWlludU1EN1lYWWJFazR1NXFBOGZuR1dQeXY5cmtDNF9Jc0lMZkdvSDJtVnllUjRPMmxQNW9CMGNvM010MDlOa05zdlIyOHhpYkgwODBDSzFkTThUUEVqd1huYmJPb3d2YmF4QldGWlpJdmFXaHlKb2x6SjFibGpKSkFHT212?oc=5",
-   "source": "PRLog",
-   "date": "2026-11-09",
+   "headline": "Black Founder Launches New AI Platform That Creates Custom, Personalized Songs For Your Loved Ones",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZWpUeDZxeWJDem9hWVdaRGpTYngzdU9ELUVhVWJjajU2ZkVvMTFFZ0RwUksweVR3Q0ZqaU5rM2poaFE3YWloNXlGR1M1T3pxR0toOFg0ZU5kWmJ0RTRVRUJ3RzVVeWUxMHpsVTQxN1lEbFNWT19pTWgxMzg1TWhVeGJxQXBkMklXNjNoVUZnZE9HdG53MXVSNHRhVjRGb2NxWVlwTVhrMDRsekdjQUHSAa4BQVVfeXFMTmVqVHg2cXliQ3pvYVlXWkRqU2J4M3VPRC1FYVViY2o1NmZFbzExRWdEcFJLMHlUd0NGamlOazNqaGhRN2FpaDV5RkdTNU96cUdLaDhYNGVOZFpidEU0VUVCd0c1VXllMTB6bFU0MTdZRGxTVk9faU1oMTM4NU1oVXhicUFwZDJJVzYzaFVGZ2RPR3RudzF1UjR0YVY0Rm9jcVlZcE1YazA0bHpHY0FB?oc=5",
+   "source": "BlackNews.com",
+   "date": "2026-11-12",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "A Year After Winning a Black in Business Award, The Oaks Hospitality Group Makes the Largest Deal in the Company's History",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwMHJ6SVRndC1ndlpScTM0YlBqRlUtdzVZODFZSmtzV3BfTExwMEtFUE1xWThJd1dtSXFRNjBZX1I4NGYxaC0tRGxiSXZQN2tGVmhRSnM2QkhjbHlVdjY0MzV3dHJPRVY3WEFIN0dpdFQ2aTdiX2pnZXdUN1RvZw?oc=5",
-   "source": "The Washington Informer",
-   "date": "2026-11-03",
+   "headline": "‘This country is a disgrace’: Veterans condemn Trump’s ‘criminal’ war in parade protest",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3U3R0X3A1SEp1cHdWN2Z1NUJjVlVZTnM4WG5QOGZRVzBkc1hNdlFRdDNvMHA0bFZsdlNhWEtnU0hqU01ub2R1VHVrNXNHQnZDUVd4X0VzbVExV3g4NTBEaVpsZzFyTk9GTWloNGFOSnF6VDhLMmRjVzhMa9IBd0FVX3lxTE5CRmJoenRHakpLcFNYWDhmVnk2MXBIcHY5cVNJamVqdGRROS1uYVR1NFVnMEZLakFJTFZXQWRlZ0V2SDAwanYxUl9pc0I5ZmQtRzNyVzhtaFBZOTZhTXdicGk5Z2JybEV0Nm01WlFVRTNiRHRtSmR3?oc=5",
+   "source": "Raw Story",
+   "date": "2026-11-11",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Beyoncé Funded Cécred Herself Because Investors 'Didn't Like' Research Budget, Tina Knowles Says",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTVFlS18xQl9TeGViVUh4UVlyZFBsZ1Zkbk5xbEdJTkdJbkFjRTVyU2NtS3FTelpLQll4M3JvcU93dHpLUkN5Zm5Uc1BDYjZfVTl6NkxJd09tSVJfT2plc09HY3VLNDUwTHhIWFFsUjktSzVLYWREaHBfZFhuQS1DcTJ3?oc=5",
-   "source": "Complex",
-   "date": "2026-10-29",
+   "headline": "Today’s obituary: Dorothy Shabazz opened Syracuse’s first Black beauty supply store",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajY4RzVrQV9RWXBTaTExeC1tQW9RcVhURjhLOWU2MFQwbzhrVGJ5VHRJaUszemNrTElZSXZUYlBmb0hxQjlqVmpaUzBiTzVzSGs5YUhfbFh6bkVxVkZ5am0xMU9PRk5ZamRqRFpZeFNaNzloNDUyOFNGSDhqQThxMlR4bWphNnVjRnd2RUpUUVZSdWdvdUR2QngyQlBjTUJWQnF1LXRkRko5ZDBpWjg5MUJwWlk0Tmc2YzNUV2d5ZXk?oc=5",
+   "source": "Syracuse.com",
+   "date": "2026-11-05",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
+   "headline": "Actor Kaalan Walker Sentenced, Wisconsin's Historic Black Resort",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTFhEcFZSdGJBRTlnS3cxZUlHdnNFZXVSQVpDdlJ2Q3ZkTmxnLURoQm1jWjBRSUVEOVhPR05RamgzRHY3bmMxSkdJVnZqcy1OSFVQVUxzbl9MbzhzTFFfQ1Vaa0hkQ1YyMGNDVzFJSDZYbXZMb2plS29PcUhueHFZTnJXdFdIVWFWOWZ0M1h3UHEzNmNYaFB0c0NqdDRVaW5XSGluSXhvSjVKZnB0REY1b19IcW5FQmhOSk01X0RTUUlMQXRyYTlOTml6VV9WZ0VqV2NTbkRpSzZDOVFybmxWQy1pVDlDdk1yYUd6aXAwRFpMQQ?oc=5",
+   "source": "EBONY Magazine",
+   "date": "2026-11-04",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -121,17 +121,24 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Debbie Wasserman Schultz wins Florida House seat once held by Haitian American lawmaker",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUTlIZjFPcWRGUS1XUE0tQlNwR28wRG16cnZ0X2lsNXQzajFNdUVpLWpoSWhFRC1rRnJ1ZkRiTk04NFNCZDFKRjZSR1gxZkVPalQzcHVoNXJOQVhkREtCNDN1MnJ4RDNWTWtnVHpHcm9CZVU0NWgtT1czV2swWi01d1hmOGlyeFFxdlpTc1htWFNoUk9HQ0Zwdms3RQ?oc=5",
-   "source": "The Haitian Times",
-   "date": "2026-11-04",
+   "headline": "Ritchie Torres, the first out gay Afro-Latino member of Congress, wins reelection",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN2MzdDhMektyd2JkTGR0V0h2bFV3OW9Da2pzSTdOQldINFR6ZC11WEtKNXB1eGNIRkpRMy1qNlVYMkVGU2pKRW9ESEd4dXNWREdyZUJNdnNjZTN6emdZelI2eUtjSW1XX2ZXbWZvR19pWTVFQjAyUFRjRjRIWU5mclk0WWNuU2FIOGJkWnVtSTRUZ00?oc=5",
+   "source": "Yahoo",
+   "date": "2026-11-03",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Coupe's Corner becomes first Black-owned lounge with two locations",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ1RaX3N0SGo1MTAtc3JrSE5iTy1fTnd5MlMzeG92ZEFZaGptWDRpc0R4TXRHSGl4b1Vqb0ZBMUFobmVzNndhMWRKQ000cVFuMl9LT3g2dVFxV2d6Y1pZYVBXMU52bFZfcTk4TnZMTGVmRjlXaHlHc3MydXhGVGU4TWZBZThWRmxlTUdrSVJuMGFvNTlUeDE5WkJTVnVXSjg?oc=5",
-   "source": "WYFF",
-   "date": "2026-10-22",
+   "headline": "Debbie Wasserman Schultz wins Florida House seat once held by Haitian American lawmaker",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUTlIZjFPcWRGUS1XUE0tQlNwR28wRG16cnZ0X2lsNXQzajFNdUVpLWpoSWhFRC1rRnJ1ZkRiTk04NFNCZDFKRjZSR1gxZkVPalQzcHVoNXJOQVhkREtCNDN1MnJ4RDNWTWtnVHpHcm9CZVU0NWgtT1czV2swWi01d1hmOGlyeFFxdlpTc1htWFNoUk9HQ0Zwdms3RQ?oc=5",
+   "source": "The Haitian Times",
+   "date": "2026-11-03",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
+   "headline": "History Corner, Good News, November 3rds",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUkZEaUI5N2N6UjJMVy1OQnI2UUh6Qnl0MUVqUlNnNS1OWnd6VXhzYThsNzhHRlMzTWJGZlVQUkY3YWFHTU96SjduMENMeFp6c3A3Tll4N0FEbG5xVnYwc3IyUGNKOUVHeGhmbmtuWngydWZrZWdOVHNNbUw5WG12aVdMM3VoQkUxTUJZTFhwUklENUtSLTdRQjRrRTlPVWZsVzZjVw?oc=5",
+   "source": "Daily Kos",
+   "date": "2026-11-03",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -142,10 +149,24 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Once a rarity, Latino candidates are now up and down the ballot in local, state races",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMkgxMHhsU19ldWpqb2ZxTWpqZ1hiWW51X19kdFFVbXVyMUxNTXB4cjNqalZNWndWOVRoWFFLY09WMWp1eWQyOUtqdkdrelpGZzBpRHBUOUstb3N2NDVNbVZmU3Z2emdxc0lKWWJPZUZwcXFkSHU4RXc0cjNacVNMYTdpcTNGbFkwMTVaam03UEZ1WDhZTUlFWVBxQzZVSWhBVWVVTnViNVlGNVlJNG41UEFFaEdFbFJOS2tJUDl6bUs?oc=5",
-   "source": "Maryland Matters",
+   "headline": "Beyoncé Funded Cécred Herself Because Investors 'Didn't Like' Research Budget, Tina Knowles Says",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTVFlS18xQl9TeGViVUh4UVlyZFBsZ1Zkbk5xbEdJTkdJbkFjRTVyU2NtS3FTelpLQll4M3JvcU93dHpLUkN5Zm5Uc1BDYjZfVTl6NkxJd09tSVJfT2plc09HY3VLNDUwTHhIWFFsUjktSzVLYWREaHBfZFhuQS1DcTJ3?oc=5",
+   "source": "Complex",
+   "date": "2026-10-29",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
+   "headline": "Coupe's Corner becomes first Black-owned lounge with two locations",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ1RaX3N0SGo1MTAtc3JrSE5iTy1fTnd5MlMzeG92ZEFZaGptWDRpc0R4TXRHSGl4b1Vqb0ZBMUFobmVzNndhMWRKQ000cVFuMl9LT3g2dVFxV2d6Y1pZYVBXMU52bFZfcTk4TnZMTGVmRjlXaHlHc3MydXhGVGU4TWZBZThWRmxlTUdrSVJuMGFvNTlUeDE5WkJTVnVXSjg?oc=5",
+   "source": "WYFF",
    "date": "2026-10-22",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
+   "headline": "America’s Black Holocaust Museum Honors Wisconsin’s First Black Licensed Architect with Exhibit and Community Discussion",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOVFkc3FwNklxbWVDbWZwM2V0OGl3ZzNfWkNjc1RWQ1Fnb2x5c1dub01qMHZzeEJRcklfLVRlbmRRbU41NV9XODFQRW4yMFJOX1NhbGRaZmZEc0Iyb3lUYm9yc09MQkIyT2ZiNjF5a2ZWT1MwRFVIRkNXc2xCTHdxd2x0WjFKLUZBS2NwajVkbFYwc3Z4LU40NHpCcWVVcnplX2pxbTh5Yk5uZTBZd1piU2l0ckNQZU9fRmV5OEFXTDJYSUhMNVpPYkNrb2hJVUJpWUcyWlJYZjdXZmpjTk5ZcFhuNTctS3VJTlcxUQ?oc=5",
+   "source": "Civic Media",
+   "date": "2026-10-23",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -156,27 +177,6 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "The Field Guide to Black-Owned Cannabis in New York",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX29zd0x0NXFEM2h3YWdKZXh4Nm9RRWlnRTZQb0NTTm92NWJiRHlCVUxURi1yUVlUWGU1N0k0OVNXcnVmS29JQWxwVlg1STJ2WFhldlBiNlFFbUhtYUlwbC1vaXM3N0JNUURfVVBDNkI1a01KWUQyQldwMFp3aER6S0FSZjRFeWtlcVBz?oc=5",
-   "source": "stupidDOPE",
-   "date": "2026-10-20",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
-   "headline": "Black Owned Pilates Studios List: Where to Book in 2026",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CeW1iQkV6TXVUNTlkX3Y1WWV1WnZ5ZFZUUkJPUV9Ka3Mwd21CS3ZYUDh5U0hXbVZ4Vm4zVEF5dXRlVFZocHJDTFYzT1ZvZ3lNQTFvMzI1Y19WcVBMVmpmdUg1a0VZQW56?oc=5",
-   "source": "Baller Alert",
-   "date": "2026-10-20",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
-   "headline": "Black inventors who helped shape the modern world | lovemoney.com",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEtCdjF6QWpIaVFES3VJYXZPVU1Ja3FkT25hai11T2I5YnFqM2lseGxDQ2J2ZmZPdWF6UWxjMjhrTWhLbEdJQjFQeGhjWUFJQ08ycDRseWRsMHdsSEZNS0RhVXZuNWhWenp0Nzk2YjBERHVCMEJkM04wM3hQcmtRX0xLM250cHVYSG5zejhpal9xWFhZLWQtVXZ30gGcAUFVX3lxTE9CY2NBTWJ0ZjBhWFBicGJjdlhLSEdVdWZXN05rdmFnVUR3UFoxU29vUWxDdmtaT20xNW1HSUh1cEdwcE5YNW8wYXRheFBJYi1tVUVvNmdtUlctNkVmT043ODVUY0RIS1hZc1RFellwNHJGTnhLY1Z6Mmh4Y0J6R1Bzdm54SE02cEk5SjlJb3lsTVRzaWdOeTBsOVFzOA?oc=5",
-   "source": "lovemoney.com",
-   "date": "2026-10-16",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
    "headline": "National survey seeks the views of thousands of Black women and girls",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjJfblpqZ1FqNS05UWtvVXdvUzVBY1RXS1FSNWhiSGMyYmEwcVNfRThydXJ1WUlIUnk1RXFFRjEwT2VEY0p0b0p3Y204MTRuY3ZxSlVWYS1jSnpocEVhQnVuTWE2VlN3R0JqSTZCaUtrdnVmZHpXNWRBVmhMZ2VObVU5azc3Ulltb3NEQXFmYTJQRXlURUZEbFUzSWk3Vk1DOHhZME5ORFpOX21WcVBOYzJnOHJUUFliUkdGdlRMaHFJc0U?oc=5",
    "source": "The Voice Online",
@@ -184,10 +184,10 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "A Young Haitian Driven to Despair by ICE",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSF9kdVFaSDYtT3BPREpGZUtxWERlUnAxQzhQZmZjbm1ibUxfRzZqYWZlemwtYktacW9JTjVZdUQyWUdDVzNvUkxTY212dTJxdVdxSUM4Q0xpcGt5YlZJbVlCTG9KNHl4TjJyYjY2ZHRieGJkdmRJSmI5ZmdkSHU3U056aWttaVByWWVTZg?oc=5",
-   "source": "The New Yorker",
-   "date": "2026-10-15",
+   "headline": "Once a rarity, Latino candidates are now up and down the ballot in local, state races",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMkgxMHhsU19ldWpqb2ZxTWpqZ1hiWW51X19kdFFVbXVyMUxNTXB4cjNqalZNWndWOVRoWFFLY09WMWp1eWQyOUtqdkdrelpGZzBpRHBUOUstb3N2NDVNbVZmU3Z2emdxc0lKWWJPZUZwcXFkSHU4RXc0cjNacVNMYTdpcTNGbFkwMTVaam03UEZ1WDhZTUlFWVBxQzZVSWhBVWVVTnViNVlGNVlJNG41UEFFaEdFbFJOS2tJUDl6bUs?oc=5",
+   "source": "Maryland Matters",
+   "date": "2026-10-22",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
@@ -198,6 +198,13 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
+   "headline": "Black inventors who helped shape the modern world | lovemoney.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEtCdjF6QWpIaVFES3VJYXZPVU1Ja3FkT25hai11T2I5YnFqM2lseGxDQ2J2ZmZPdWF6UWxjMjhrTWhLbEdJQjFQeGhjWUFJQ08ycDRseWRsMHdsSEZNS0RhVXZuNWhWenp0Nzk2YjBERHVCMEJkM04wM3hQcmtRX0xLM250cHVYSG5zejhpal9xWFhZLWQtVXZ30gGcAUFVX3lxTE9CY2NBTWJ0ZjBhWFBicGJjdlhLSEdVdWZXN05rdmFnVUR3UFoxU29vUWxDdmtaT20xNW1HSUh1cEdwcE5YNW8wYXRheFBJYi1tVUVvNmdtUlctNkVmT043ODVUY0RIS1hZc1RFellwNHJGTnhLY1Z6Mmh4Y0J6R1Bzdm54SE02cEk5SjlJb3lsTVRzaWdOeTBsOVFzOA?oc=5",
+   "source": "lovemoney.com",
+   "date": "2026-10-16",
+   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
+  },
+  {
    "headline": "15 Black British Founders Pushing Culture Forward in 2026",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZGh1X1MybEVVek42RHYyVDBhN3l0RjFvQ2kzY1JEZTBrUFhWXzBIU2U3SktvSTdVeF83em5jbVlwX0REM1hiYWRoVW5LYVpuX2tzWFNWUU1pRnZQUUJqWjgzbXpqRHY1bFMwTGZEb2x4Z2FsbDlpRWw0YUpUM1Z5b2xDdzMtNnM4LVh4TlNZc3FWSUU?oc=5",
    "source": "PAUSE Online",
@@ -205,17 +212,10 @@
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   },
   {
-   "headline": "Meet Willie Albert Loman III",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vSVloRVNBeFFOakl1Z2ZuNUNTMExyTzE0eHU1dnNMXzJhcFVKaE1UaFZQU0h6U0toQkV0eGloTjdBWTdibzFQY0ZBSUd3R2VtbW8ySC1rdWRQZlpVbnJHMUZUMA?oc=5",
-   "source": "Bold Journey Magazine",
-   "date": "2026-10-13",
-   "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
-  },
-  {
-   "headline": "BKREA Co-Founder Seth Samowitz Joins WithCoverage to Tackle Rising Real Estate Insurance Costs With AI",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWmVUMHBVLUV0Wkk2WDRndjJkZTlvMWdGUzJmQ1NCREM3UEhvR0N6VlppVXJYYUFmbXZNb3Z6bmlUZzQ0eU9PcGdEMld2dTJHM2haWnpNOVk3VkxTSnFNWE9hWFZjZUR6dUdCa0VVRkdkN1FjbHJ2Ynp2bXAwdFFYazduZThhU3Z3ZjR0cmNpMWhaaFhIN3dV?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-10-07",
+   "headline": "A Young Haitian Driven to Despair by ICE",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSF9kdVFaSDYtT3BPREpGZUtxWERlUnAxQzhQZmZjbm1ibUxfRzZqYWZlemwtYktacW9JTjVZdUQyWUdDVzNvUkxTY212dTJxdVdxSUM4Q0xpcGt5YlZJbVlCTG9KNHl4TjJyYjY2ZHRieGJkdmRJSmI5ZmdkSHU3U056aWttaVByWWVTZg?oc=5",
+   "source": "The New Yorker",
+   "date": "2026-10-15",
    "status": "needs review: confirm the person, year and background (where born, where parents came from) from two sources, then add to data/people.json"
   }
  ]
