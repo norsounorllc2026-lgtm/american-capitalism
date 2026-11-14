@@ -1,0 +1,39 @@
+name: Monthly data update
+
+on:
+  schedule:
+    - cron: "17 13 1 * *"   # 1st of every month, 7:17 a.m. Central
+  workflow_dispatch: {}     # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Check that the repo has every file it needs
+        run: |
+          missing=0
+          for f in index.html scripts/update.py scripts/build.py scripts/requirements.txt \
+                   data/people.json data/wealth.json data/business.json data/articles.json data/resources.json data/meta.json; do
+            if [ ! -f "$f" ]; then echo "::error::Missing file: $f — upload it to the repo"; missing=1; fi
+          done
+          grep -q "DATA:BEGIN" index.html || { echo "::error::index.html is missing the DATA:BEGIN marker — upload the index.html from the zip"; missing=1; }
+          exit $missing
+      - run: pip install -r scripts/requirements.txt
+      - name: Collect articles and refresh data
+        run: python scripts/update.py
+      - name: Embed data into the page
+        run: python scripts/build.py
+      - name: Commit changes
+        run: |
+          git config user.name "ledger-bot"
+          git config user.email "ledger-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Monthly data update $(date -u +%Y-%m-%d)"
+          git push
