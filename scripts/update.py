@@ -27,6 +27,11 @@ import xml.etree.ElementTree as ET
 
 import requests
 
+try:  # turns Google News redirect links into the real article address
+    from googlenewsdecoder import gnewsdecoder
+except ImportError:  # still runs without it; Google News links are then skipped
+    gnewsdecoder = None
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 UA = {"User-Agent": "american-capitalism-ledger/1.0 (+https://github.com)"}
@@ -60,15 +65,304 @@ def get(url, **kw):
     return None
 
 
+# ---------------------------------------------------------------- link checks
+# A link only reaches the page if it opens as something a browser can show: a web page or a PDF.
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/126.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8"}
+SHOWABLE = ("text/html", "application/xhtml+xml", "application/pdf")
+GOOGLE_NEWS = re.compile(r"^https?://news\.google\.com/(rss/)?(articles|read)/")
+_checked = {}
+
+
+def resolve_google(urls):
+    """{google_news_url: real_article_url} for the ones that could be decoded."""
+    out = {}
+    todo = [u for u in dict.fromkeys(urls) if GOOGLE_NEWS.match(u or "")]
+    if not todo or gnewsdecoder is None:
+        return out
+    for i in range(0, len(todo), 20):
+        chunk = todo[i:i + 20]
+        try:
+            res = gnewsdecoder(chunk, interval=1)
+        except Exception as e:
+            log(f"  Google News decode error {e!r}")
+            continue
+        for u, r in zip(chunk, res if isinstance(res, list) else [res]):
+            if r and r.get("success") and r.get("decoded_url", "").startswith("http"):
+                out[u] = r["decoded_url"]
+        time.sleep(1)
+    log(f"  decoded {len(out)} of {len(todo)} Google News links")
+    return out
+
+
+def link_status(url):
+    """('ok', final_url) · ('bad', reason) · ('unsure', reason).
+    'bad' = gone or not something a browser can show (data file, download, error page).
+    'unsure' = the site blocks scripts (403/429) or timed out; real visitors usually get through."""
+    if url in _checked:
+        return _checked[url]
+    if not re.match(r"^https?://", url or "") or GOOGLE_NEWS.match(url):
+        res = ("bad", "not a direct link")
+    else:
+        try:
+            r = requests.get(url, headers=BROWSER_UA, timeout=20, allow_redirects=True, stream=True)
+            ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+            if r.status_code in (404, 410):
+                res = ("bad", f"HTTP {r.status_code}")
+            elif r.status_code >= 400:
+                res = ("unsure", f"HTTP {r.status_code}")
+            elif ctype and not ctype.startswith(SHOWABLE):
+                res = ("bad", f"opens as {ctype}")
+            else:
+                res = ("ok", r.url)
+            r.close()
+        except requests.Timeout as e:
+            res = ("unsure", type(e).__name__)       # slow site: keep, but report
+        except requests.ConnectionError as e:
+            res = ("bad", "site not reachable")     # no such site, or it refuses connections
+        except requests.RequestException as e:
+            res = ("unsure", type(e).__name__)
+    _checked[url] = res
+    return res
+
+
+def usable_articles(items, limit):
+    """Resolve Google News links, drop anything that won't open as a page, keep up to `limit`."""
+    real = resolve_google([a["url"] for a in items])
+    keep = []
+    for a in items:
+        url = real.get(a["url"], a["url"])
+        state, info = link_status(url)
+        if state == "bad":
+            continue
+        a = dict(a, url=info if state == "ok" else url)
+        keep.append(a)
+        if len(keep) >= limit:
+            break
+    return keep
+
+
 # ---------------------------------------------------------------- articles
 # Page order: Black America first, then the diaspora, then comparisons.
 CATEGORY_ORDER = ["Black Business & Entrepreneurship", "Racial Wealth Gap", "Black Inventors & Patents", "Black Diaspora",
                   "Capital Access & Investment", "State & Local", "Hispanic & Latino Business", "Research & Projections"]
 # Starter articles for a category that has none yet (used only until a scan finds 3+).
-SEEDS = {"Black Diaspora": [
-    {"title": "10 Caribbean American Women in Business to Support in 2024", "url": "https://www.caribbeannationalweekly.com/posts/10-caribbean-american-women-in-business-to-support-in-2024", "source": "Caribbean National Weekly", "date": "2024-01-12", "summary": "Profiles ten Caribbean American women running businesses across industries."},
-    {"title": "Opportunities for Caribbean and Caribbean-American owned businesses", "url": "https://iadb.org/en/news/opportunities-caribbean-and-caribbean-american-owned-businesses", "source": "Inter-American Development Bank", "date": "", "summary": "A Washington briefing connecting Caribbean and Caribbean-American entrepreneurs with local, federal and international buyers."},
-    {"title": "12 Caribbean And Caribbean Roots Executives You Should Know", "url": "https://newsamericasnow.com/caribbean-american-heritage-month-12-caribbean-and-caribbean-roots-executives-you-should-know", "source": "News Americas Now", "date": "2017-06-08", "summary": "Corporate leaders born in the Caribbean or with Caribbean family roots."}]}
+# Hand-checked starter articles with DIRECT links, for every category. Used whenever a scan
+# finds fewer than 3 working links, so The Wire is never empty and never shows a dead link.
+SEEDS = {
+ "Racial Wealth Gap": [
+  {
+   "title": "Black Family Wealth Falls 25% as Racial Wealth Gap Widens, Fed Finds",
+   "url": "https://theemancipator.org/2026/10/19/news/black-family-wealth-falls-25-as-racial-wealth-gap-widens-fed-finds/",
+   "source": "The Emancipator",
+   "date": "2026-10-19",
+   "summary": "The Fed’s 2025 survey shows typical Black family wealth dropping to $36,800 while White and Hispanic medians rose."
+  },
+  {
+   "title": "Federal Reserve Board Report Shows Huge Racial Income and Wealth Gaps",
+   "url": "https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/",
+   "source": "Journal of Blacks in Higher Education",
+   "date": "2026-11-02",
+   "summary": "Breaks out 2025 median and mean income and wealth for Black and White families."
+  },
+  {
+   "title": "Black Household Wealth Fell 25%, Per New Fed Data",
+   "url": "https://blavity.com/black-household-wealth-fell-25-percent-fed-data",
+   "source": "Blavity",
+   "date": "2026-10-20",
+   "summary": "CEPR analysis of the 2025 SCF, including the widening distance from the national median."
+  },
+  {
+   "title": "Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the SCF",
+   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html",
+   "source": "Federal Reserve Board",
+   "date": "2023-10-18",
+   "summary": "The Fed’s own 1989–2022 series on wealth and ownership by race and ethnicity."
+  }
+ ],
+ "Black Business & Entrepreneurship": [
+  {
+   "title": "Census Bureau Releases New Data on Business Owner Characteristics",
+   "url": "https://www.census.gov/newsroom/press-releases/2025/business-owner-characteristics.html",
+   "source": "U.S. Census Bureau",
+   "date": "2025-11-20",
+   "summary": "2023 employer-firm counts and receipts by owner race and ethnicity."
+  },
+  {
+   "title": "Black employers are reaching new heights",
+   "url": "https://www.brookings.edu/articles/black-employers-are-reaching-new-heights",
+   "source": "Brookings Institution",
+   "date": "2025",
+   "summary": "Black-owned employer firms passed 200,000 for the first time in 2023."
+  },
+  {
+   "title": "A look at Black-owned businesses in the U.S.",
+   "url": "https://www.pewresearch.org/short-reads/2025/02/12/a-look-at-black-owned-businesses-in-the-us/",
+   "source": "Pew Research Center",
+   "date": "2025-02-12",
+   "summary": "Counts, revenue, sectors and states for Black-owned employer firms."
+  },
+  {
+   "title": "Black Americans Own Three Percent of Employer Businesses",
+   "url": "https://jbhe.com/2025/01/black-americans-own-three-percent-of-employer-business-in-the-united-states",
+   "source": "Journal of Blacks in Higher Education",
+   "date": "2025-01",
+   "summary": "Compares Black business ownership with population share."
+  }
+ ],
+ "Black Inventors & Patents": [
+  {
+   "title": "Beyond Baker’s list: Black innovation then and now",
+   "url": "https://www.uspto.gov/blog/beyond-baker-rsquo-s-list",
+   "source": "U.S. Patent and Trademark Office",
+   "date": "",
+   "summary": "How Henry Baker’s lists documented early Black patent holders, with modern inventors."
+  },
+  {
+   "title": "Black Inventors and Innovators report",
+   "url": "https://webcf.waybackmachine.org/web/20230329153711/https://invention.si.edu/sites/default/files/Lemelson-Center-Black-Inventors-Innovators-Report-updated-2021-10.pdf",
+   "source": "Smithsonian Lemelson Center",
+   "date": "2021-10",
+   "summary": "History of Black patenting, the barriers inventors faced, and counts from Baker to Sluby."
+  },
+  {
+   "title": "Celebrating Black Inventors on World IP Day",
+   "url": "https://www.fr.com/wp-content/uploads/2021/04/04-23-21-NLJ-Celebrating-Black-Inventors-on-World-IP-Day-Davis.pdf",
+   "source": "National Law Journal / Fish & Richardson",
+   "date": "2021-04-23",
+   "summary": "Patent attorneys trace landmark Black inventions and the legal hurdles behind them."
+  },
+  {
+   "title": "African American Technological Contributions: Past, Present and Future",
+   "url": "https://www.nist.gov/speech-testimony/african-american-technological-contributions-past-present-and-future",
+   "source": "NIST",
+   "date": "",
+   "summary": "Federal testimony on Black contributions to American technology."
+  }
+ ],
+ "Hispanic & Latino Business": [
+  {
+   "title": "Hispanic-Owned Businesses",
+   "url": "https://census.gov/library/stories/2024/10/hispanic-owned-businesses.html",
+   "source": "U.S. Census Bureau",
+   "date": "2024-10",
+   "summary": "406,086 Hispanic-owned employer firms in 2021, led by construction and food service."
+  },
+  {
+   "title": "Hispanic-Owned Businesses on the Upswing",
+   "url": "https://www.census.gov/newsroom/blogs/random-samplings/2016/12/hispanic-owned_busin.html",
+   "source": "U.S. Census Bureau",
+   "date": "2016-12",
+   "summary": "Growth of Hispanic-owned firms in the last all-firms survey."
+  },
+  {
+   "title": "2024 Diverse Founder Report",
+   "url": "https://harlem.capital/wp-content/uploads/2025/03/2024-HCP-Diverse-Founder-Report.pdf",
+   "source": "Harlem Capital",
+   "date": "2025-03",
+   "summary": "Venture dollars raised by Latino-led and Black-led startups, 2012–2024."
+  }
+ ],
+ "Capital Access & Investment": [
+  {
+   "title": "Black founders received just 0.4% of all startup funding in 2024",
+   "url": "https://peopleofcolorintech.com/articles/black-founders-received-just-0-4-of-all-startup-funding-in-2024/",
+   "source": "POCIT (citing Crunchbase)",
+   "date": "2025-03-17",
+   "summary": "Black founders raised about $730 million of U.S. venture funding in 2024."
+  },
+  {
+   "title": "Startup funding share for Black founders down",
+   "url": "https://news.crunchbase.com/diversity/startup-funding-share-black-founders-down-cleantech-healthcare/",
+   "source": "Crunchbase News",
+   "date": "",
+   "summary": "Sector-by-sector look at the shrinking share of venture dollars to Black founders."
+  },
+  {
+   "title": "Latino founders accounted for 2% of all venture funding last year",
+   "url": "https://dot.la/tag/vcfamilia",
+   "source": "dot.LA",
+   "date": "2022-01-26",
+   "summary": "Latino investors respond to 2021 data on venture funding."
+  }
+ ],
+ "State & Local": [
+  {
+   "title": "African Americans in Business",
+   "url": "https://indyencyclopedia.org/african-americans-in-business/",
+   "source": "Encyclopedia of Indianapolis",
+   "date": "",
+   "summary": "Indianapolis Black business history from 1880s carriage makers to Mays Chemical."
+  },
+  {
+   "title": "Warren Coleman (1849–1904), L-91",
+   "url": "https://www.dncr.nc.gov/blog/2024/01/16/warren-coleman-1849-1904-l-91",
+   "source": "N.C. Dept. of Natural and Cultural Resources",
+   "date": "2024-01-16",
+   "summary": "The first Black-owned and -operated textile mill in the nation, in Concord, N.C."
+  },
+  {
+   "title": "Foodways to Freedom: African Heritage Entrepreneurs in Rhode Island",
+   "url": "https://www.rihs.org/?p=9240",
+   "source": "Rhode Island Historical Society",
+   "date": "",
+   "summary": "Caterers, cheesemakers and restaurateurs of 18th- and 19th-century Rhode Island."
+  }
+ ],
+ "Research & Projections": [
+  {
+   "title": "Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860–2020",
+   "url": "https://www.nber.org/system/files/working_papers/w30101/w30101.pdf",
+   "source": "NBER",
+   "date": "2022",
+   "summary": "The longest-run estimate of the Black–White wealth gap, with projections."
+  },
+  {
+   "title": "The Road to Zero Wealth",
+   "url": "https://www.coloradotrust.org/wp-content/uploads/sites/2/2017/11/road_to_zero_wealth.pdf",
+   "source": "Institute for Policy Studies & Prosperity Now",
+   "date": "2017-09",
+   "summary": "Trend projections for Black and Latino median wealth."
+  },
+  {
+   "title": "U.S. Wealth Inequality: Gaps Remain Despite Widespread Wealth Gains",
+   "url": "https://www.stlouisfed.org/open-vault/2024/feb/us-wealth-inequality-widespread-gains-gaps-remain",
+   "source": "St. Louis Fed",
+   "date": "2024-02",
+   "summary": "How 2019–2022 gains were shared across groups."
+  },
+  {
+   "title": "Racial and Ethnic Inequalities in Household Wealth Persist",
+   "url": "https://libertystreeteconomics.newyorkfed.org/2024/06/racial-and-ethnic-inequalities-in-household-wealth-persist",
+   "source": "New York Fed, Liberty Street Economics",
+   "date": "2024-06",
+   "summary": "Tracks group wealth with the Fed’s quarterly distributional accounts."
+  }
+ ],
+ "Black Diaspora": [
+  {
+   "title": "10 Caribbean American Women in Business to Support in 2024",
+   "url": "https://www.caribbeannationalweekly.com/posts/10-caribbean-american-women-in-business-to-support-in-2024",
+   "source": "Caribbean National Weekly",
+   "date": "2024-01-12",
+   "summary": "Profiles ten Caribbean American women running businesses across industries."
+  },
+  {
+   "title": "Opportunities for Caribbean and Caribbean-American owned businesses",
+   "url": "https://iadb.org/en/news/opportunities-caribbean-and-caribbean-american-owned-businesses",
+   "source": "Inter-American Development Bank",
+   "date": "",
+   "summary": "A Washington briefing connecting Caribbean and Caribbean-American entrepreneurs with local, federal and international buyers."
+  },
+  {
+   "title": "12 Caribbean And Caribbean Roots Executives You Should Know",
+   "url": "https://newsamericasnow.com/caribbean-american-heritage-month-12-caribbean-and-caribbean-roots-executives-you-should-know",
+   "source": "News Americas Now",
+   "date": "2017-06-08",
+   "summary": "Corporate leaders born in the Caribbean or with Caribbean family roots."
+  }
+ ]
+}
 BLACK_PRESS = ["blackenterprise.com", "essence.com", "theroot.com", "thegrio.com", "blavity.com", "afro.com", "chicagodefender.com",
                "amsterdamnews.com", "jbhe.com", "theemancipator.org", "capitalbnews.org", "word-in-black.com", "newsone.com",
                "caribbeannationalweekly.com", "newsamericasnow.com", "caribbeanlife.com", "sflcn.com", "jamaica-gleaner.com"]
@@ -193,16 +487,19 @@ def update_articles():
     queries["State & Local"] = [f'"Black-owned" OR "Black business" {s}' for s in states] + \
                                [f'"Latino-owned" OR "Hispanic-owned" {s}' for s in states[:5]]
     arts["categories"] = CATEGORY_ORDER
+    # previous articles must still open as real pages; any old Google News redirect is resolved or dropped
+    for cat in list(old):
+        old[cat] = usable_articles(old[cat], 6)
     for cat, seeds in SEEDS.items():
-        if not old.get(cat):
-            old[cat] = [dict(s, category=cat, collected=TODAY.isoformat()) for s in seeds]
+        if len(old.get(cat, [])) < 3:
+            old[cat] = usable_articles(old.get(cat, []) + [dict(s, category=cat, collected=TODAY.isoformat()) for s in seeds], 6)
     for cat in arts["categories"]:
         found = []
         for q in queries.get(cat, []):
             found += google_news(q)
             found += gdelt(q)
             time.sleep(1)
-        picked = clean(found, cat)[:6]
+        picked = usable_articles(clean(found, cat)[:18], 6)
         if len(picked) >= 3:
             new_items += picked
             log(f"[articles] {cat}: {len(picked)} new")
@@ -341,11 +638,37 @@ def check_resources():
     bad = []
     for g in res.get("groups", []):
         for it in g.get("items", []):
-            r = get(it["url"])
-            if r is None:
-                bad.append(f"Help link may be broken: {it['name']} ({it['url']})")
+            state, info = link_status(it["url"])
+            if state == "bad":
+                bad.append(f"Help link may be broken: {it['name']} ({it['url']}: {info})")
     log(f"[resources] {len(bad)} link(s) need review")
     return bad
+
+
+def check_source_links():
+    """Every other link on the page (sources, projections, people). Problems go to the Actions log and to
+    data/meta.json -> linkReport, so a person can replace them; nothing is removed automatically."""
+    urls = {}
+    def walk(o, where):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                walk(v, f"{where}.{k}")
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, where)
+        elif isinstance(o, str) and re.match(r"^https?://", o):
+            urls.setdefault(o, where)
+    for part in ("people", "wealth", "business"):
+        walk(load(part), part)
+    report = []
+    for u, where in urls.items():
+        state, info = link_status(u)
+        if state != "ok":
+            report.append({"url": u, "where": where, "problem": info, "status": state})
+            log(f"  [{state}] {u[:100]} ({info}) in {where}")
+    log(f"[links] checked {len(urls)} source links: {sum(r['status']=='bad' for r in report)} broken, "
+        f"{sum(r['status']=='unsure' for r in report)} could not be confirmed")
+    return report
 
 
 def main():
@@ -377,8 +700,14 @@ def main():
         alerts += check_resources()
     except Exception as e:
         log(f"[resources] error {e!r}")
+    link_report = []
+    try:
+        link_report = check_source_links()
+    except Exception as e:
+        log(f"[links] error {e!r}")
     meta = load("meta")
-    meta.update(lastRun=TODAY.isoformat(), lastUpdated=TODAY.isoformat(), alerts=alerts, log=LOG[-60:])
+    meta.update(lastRun=TODAY.isoformat(), lastUpdated=TODAY.isoformat(), alerts=alerts, log=LOG[-60:],
+                linkReport=link_report)
     save("meta", meta)
 
 
