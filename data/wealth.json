@@ -1,0 +1,179 @@
+{
+ "units": "Median household net worth, 2025 dollars",
+ "scf": {
+  "label": "Federal Reserve Survey of Consumer Finances (SCF)",
+  "series": [
+   {
+    "year": 1989,
+    "white": 179506,
+    "black": 10068,
+    "hispanic": 13187
+   },
+   {
+    "year": 1992,
+    "white": 158046,
+    "black": 22445,
+    "hispanic": 15343
+   },
+   {
+    "year": 1995,
+    "white": 162325,
+    "black": 23124,
+    "hispanic": 25761
+   },
+   {
+    "year": 1998,
+    "white": 191237,
+    "black": 30926,
+    "hispanic": 19600
+   },
+   {
+    "year": 2001,
+    "white": 224921,
+    "black": 35512,
+    "hispanic": 20935
+   },
+   {
+    "year": 2004,
+    "white": 242365,
+    "black": 35118,
+    "hispanic": 26242
+   },
+   {
+    "year": 2007,
+    "white": 268236,
+    "black": 32984,
+    "hispanic": 32962
+   },
+   {
+    "year": 2010,
+    "white": 195100,
+    "black": 23857,
+    "hispanic": 24218
+   },
+   {
+    "year": 2013,
+    "white": 197727,
+    "black": 18363,
+    "hispanic": 19151
+   },
+   {
+    "year": 2016,
+    "white": 230842,
+    "black": 23080,
+    "hispanic": 27818
+   },
+   {
+    "year": 2019,
+    "white": 238721,
+    "black": 30609,
+    "hispanic": 45864
+   },
+   {
+    "year": 2022,
+    "white": 311900,
+    "black": 49100,
+    "hispanic": 67400
+   },
+   {
+    "year": 2025,
+    "white": 332100,
+    "black": 36800,
+    "hispanic": 79600
+   }
+  ],
+  "note": "1989–2019 converted from the Fed’s 2022-dollar table to 2025 dollars with the factor the Fed’s own 2022 figures imply (×1.0943). 2022 and 2025 are the Fed-published 2025-dollar values.",
+  "sources": [
+   {
+    "name": "Federal Reserve, FEDS Notes (Oct 2023): Greater Wealth, Greater Uncertainty",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html"
+   },
+   {
+    "name": "The Emancipator (Oct 19, 2026), reporting the Fed’s 2025 SCF",
+    "url": "https://theemancipator.org/2026/10/19/news/black-family-wealth-falls-25-as-racial-wealth-gap-widens-fed-finds/"
+   },
+   {
+    "name": "JBHE (Nov 2026), reporting the Fed’s 2025 SCF",
+    "url": "https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/"
+   }
+  ]
+ },
+ "longrun": {
+  "label": "White-to-Black per-capita wealth ratio (Derenoncourt, Kim, Kuhn & Schularick)",
+  "points": [
+   {
+    "year": 1860,
+    "ratio": 56
+   },
+   {
+    "year": 1870,
+    "ratio": 23
+   },
+   {
+    "year": 1920,
+    "ratio": 10
+   },
+   {
+    "year": 1935,
+    "ratio": 9,
+    "approx": true,
+    "note": "\"about 9 to 1\" across the Depression decade"
+   },
+   {
+    "year": 1955,
+    "ratio": 7,
+    "approx": true,
+    "note": "\"7 to 1 by the 1950s\""
+   },
+   {
+    "year": 2019,
+    "ratio": 6.6
+   },
+   {
+    "year": 2020,
+    "ratio": 6,
+    "approx": true
+   }
+  ],
+  "note": "Per-capita wealth across all Black and white Americans. This is a different measure from the SCF median-household ratio, so the two lines are drawn separately and should not be joined.",
+  "sources": [
+   {
+    "name": "NBER Working Paper 30101, Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860–2020",
+    "url": "https://www.nber.org/system/files/working_papers/w30101/w30101.pdf"
+   }
+  ]
+ },
+ "crosscheck": [
+  {
+   "source": "Pew Research Center analysis of Census SIPP data (2011)",
+   "url": "https://www.pewresearch.org/social-trends/2011/07/26/chapter-7-trends-in-household-wealth-1984-to-2009/",
+   "finding": "White-to-Black and White-to-Hispanic median wealth ratios were about 10 to 1 from 1984 to 2004, then about 20 to 1 (Black) and 18 to 1 (Hispanic) in 2009.",
+   "differs": "The Fed SCF puts the 2010 White-to-Black ratio near 8 to 1. SIPP records less wealth at the top and changed its design in 1996 and its race question in 2004, so it runs higher than SCF."
+  },
+  {
+   "source": "Derenoncourt et al. vs. Fed SCF (2019)",
+   "url": "https://www.nber.org/system/files/working_papers/w30101/w30101.pdf",
+   "finding": "Per-capita ratio 6.6 to 1 (DKKS) vs. median-household ratio 7.8 to 1 (SCF) for the same year.",
+   "differs": "Means and per-person figures are pulled up by large Black fortunes and family size; medians track the typical household."
+  },
+  {
+   "source": "Federal Reserve 2025 SCF vs. 2022 SCF",
+   "url": "https://theemancipator.org/2026/10/19/news/black-family-wealth-falls-25-as-racial-wealth-gap-widens-fed-finds/",
+   "finding": "Black median wealth fell 25% (2022→2025) while White rose 6% and Hispanic 18%, pushing the White-to-Black ratio to about 9 to 1, the widest since 2016.",
+   "differs": "CEPR economist Algernon Austin suggests falling home, vehicle and retirement values and expired COVID-era relief; the Fed has not confirmed causes."
+  }
+ ],
+ "dfa": {
+  "period": "2026:Q2",
+  "shareOfWealth": {
+   "white": 82.4,
+   "black": 3.2,
+   "hispanic": 2.4,
+   "other": 12.1
+  },
+  "source": {
+   "name": "Federal Reserve Distributional Financial Accounts (wealth by race)",
+   "url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/"
+  }
+ }
+}
