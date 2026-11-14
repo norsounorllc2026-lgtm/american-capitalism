@@ -1,0 +1,55 @@
+{
+ "note": "Free or public programs. Links are checked by the monthly job; a broken link is flagged in the page footer.",
+ "groups": [
+  {
+   "title": "Patent an invention",
+   "items": [
+    {
+     "name": "USPTO Patent Pro Bono Program",
+     "what": "Free patent legal help for inventors and small businesses with limited income, matched through regional programs.",
+     "url": "https://www.uspto.gov/patentprobono"
+    },
+    {
+     "name": "USPTO law school clinics and legal help",
+     "what": "Law students at 60+ schools help eligible inventors prepare and file patent and trademark applications at no cost.",
+     "url": "https://www.uspto.gov/LegalHelp"
+    },
+    {
+     "name": "USPTO free resources for inventors",
+     "what": "Path to a Patent webinars, boot camps, and Patent and Trademark Resource Centers in 80+ libraries.",
+     "url": "https://www.uspto.gov/blog/free-resources-inventors-and-entrepreneurs"
+    }
+   ]
+  },
+  {
+   "title": "Start or grow a business",
+   "items": [
+    {
+     "name": "SBA local assistance",
+     "what": "Find your nearest Small Business Development Center, SCORE mentor or Women’s Business Center.",
+     "url": "https://www.sba.gov/local-assistance/find"
+    },
+    {
+     "name": "Small Business Development Centers",
+     "what": "Free one-on-one advising and low-cost training, hosted by universities and state agencies.",
+     "url": "https://sba.gov/sbdc"
+    },
+    {
+     "name": "MBDA Business Centers",
+     "what": "Federal minority-business centers. Their status has been in court since 2025 cuts; as of Feb 2026 a court order had reversed some of them (GAO).",
+     "url": "https://www.gao.gov/products/gao-26-107718"
+    }
+   ]
+  },
+  {
+   "title": "Bank and borrow",
+   "items": [
+    {
+     "name": "FDIC list of Minority Depository Institutions",
+     "what": "Every federally insured Black-owned and other minority-owned bank, by state.",
+     "url": "https://www.fdic.gov/minority-depository-institutions-program/minority-depository-institutions-list"
+    }
+   ]
+  }
+ ]
+}
