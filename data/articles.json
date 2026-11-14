@@ -11,39 +11,66 @@
  ],
  "items": [
   {
-   "title": "Census Bureau Releases New Data on Business Owner Characteristics",
-   "url": "https://www.census.gov/newsroom/press-releases/2025/business-owner-characteristics.html",
-   "source": "U.S. Census Bureau",
-   "date": "2025-11-20",
-   "summary": "2023 employer-firm counts and receipts by owner race and ethnicity.",
+   "title": "Urban League: NYC Delivery Bill Could Hurt Black-Owned Businesses",
+   "url": "https://www.theroot.com/urban-league-nyc-delivery-bill-could-hurt-black-owned-2000133398",
+   "source": "The Root",
+   "date": "2026-11-01",
+   "summary": "",
    "category": "Black Business & Entrepreneurship",
    "collected": "2026-11-14"
   },
   {
-   "title": "Black employers are reaching new heights",
-   "url": "https://www.brookings.edu/articles/black-employers-are-reaching-new-heights",
-   "source": "Brookings Institution",
-   "date": "2025",
-   "summary": "Black-owned employer firms passed 200,000 for the first time in 2023.",
+   "title": "R.J. Leeper Construction Pulls In $173.5M, Remains Among Charlotte’s Biggest Black-Owned Businesses",
+   "url": "https://www.blackenterprise.com/r-j-leeper-construction-charlotte-black-owned-businesses/",
+   "source": "Black Enterprise",
+   "date": "2026-11-02",
+   "summary": "",
    "category": "Black Business & Entrepreneurship",
    "collected": "2026-11-14"
   },
   {
-   "title": "A look at Black-owned businesses in the U.S.",
-   "url": "https://www.pewresearch.org/short-reads/2025/02/12/a-look-at-black-owned-businesses-in-the-us/",
-   "source": "Pew Research Center",
-   "date": "2025-02-12",
-   "summary": "Counts, revenue, sectors and states for Black-owned employer firms.",
+   "title": "Beyond The Ballot: How Recent Elections In Brazil And The U.S. Impact Our Collective Economic Growth",
+   "url": "https://www.essence.com/news/politics/how-recent-elections-in-brazil-and-u-s-impact-our-economic-growth/",
+   "source": "Essence",
+   "date": "2026-11-04",
+   "summary": "",
    "category": "Black Business & Entrepreneurship",
    "collected": "2026-11-14"
   },
   {
-   "title": "Black Americans Own Three Percent of Employer Businesses",
-   "url": "https://jbhe.com/2025/01/black-americans-own-three-percent-of-employer-business-in-the-united-states",
-   "source": "Journal of Blacks in Higher Education",
-   "date": "2025-01",
-   "summary": "Compares Black business ownership with population share.",
+   "title": "The Lip Bar controversy puts a spotlight on how Black-owned brands are faring amid the Target boycott",
+   "url": "https://thegrio.com/2026/10/28/the-lip-bar-controversy-puts-a-spotlight-on-how-black-owned-brands-are-faring-amid-the-target-boycott/",
+   "source": "TheGrio",
+   "date": "2026-10-28",
+   "summary": "",
    "category": "Black Business & Entrepreneurship",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "How America’s First Black-Owned Film Production Company Is Ushering in a New Era of Cinema",
+   "url": "https://www.theroot.com/how-america-s-first-black-owned-film-production-company-2000129714",
+   "source": "The Root",
+   "date": "2026-10-28",
+   "summary": "",
+   "category": "Black Business & Entrepreneurship",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Black-owned businesses generate more than $74 million in revenue",
+   "url": "https://www.bizjournals.com/sanfrancisco/research/lists/2026/bay-area-black-owned-businesses.html",
+   "source": "The Business Journals",
+   "date": "2026-11-06",
+   "summary": "",
+   "category": "Black Business & Entrepreneurship",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Federal Reserve Board Report Shows Huge Racial Income and Wealth Gaps",
+   "url": "https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/",
+   "source": "The Journal of Blacks in Higher Education",
+   "date": "2026-11-02",
+   "summary": "",
+   "category": "Racial Wealth Gap",
    "collected": "2026-11-14"
   },
   {
@@ -51,214 +78,367 @@
    "url": "https://theemancipator.org/2026/10/19/news/black-family-wealth-falls-25-as-racial-wealth-gap-widens-fed-finds/",
    "source": "The Emancipator",
    "date": "2026-10-19",
-   "summary": "The Fed’s 2025 survey shows typical Black family wealth dropping to $36,800 while White and Hispanic medians rose.",
+   "summary": "",
    "category": "Racial Wealth Gap",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Why Increasing Black Homeownership Is Not Enough to Improve the Racial Wealth Gap",
+   "url": "https://jbhe.com/2026/10/why-increasing-black-homeownership-is-not-enough-to-improve-racial-wealth-grap/",
+   "source": "The Journal of Blacks in Higher Education",
+   "date": "2026-10-19",
+   "summary": "",
+   "category": "Racial Wealth Gap",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Black Household Wealth Fell 25% While White, Hispanic And Asian Households Gained. Here’s What Drove It, Per New Fed Data",
+   "url": "https://blavity.com/black-household-wealth-fell-25-percent-fed-data",
+   "source": "Blavity News",
+   "date": "2026-10-20",
+   "summary": "",
+   "category": "Racial Wealth Gap",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Financial Expert On The Reason Black Wealth is On The Decline",
+   "url": "https://www.theroot.com/financial-expert-on-the-reason-black-wealth-is-on-the-d-2000131675",
+   "source": "The Root",
+   "date": "2026-10-23",
+   "summary": "",
+   "category": "Racial Wealth Gap",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Black Wealth Has Dropped 25% And Experts Warn Policy Changes Could Make It Worse",
+   "url": "https://www.essence.com/news/black-wealth-has-dropped/",
+   "source": "Essence",
+   "date": "2026-10-17",
+   "summary": "",
+   "category": "Racial Wealth Gap",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "OP-ED: Ms. Susan’s house and what Black children deserve",
+   "url": "https://amsterdamnews.com/news/2026/11/12/ms-susans-house-and-what-black-children-deserve/",
+   "source": "New York Amsterdam News",
+   "date": "2026-11-12",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Miles G. Amos (1897-1995)",
+   "url": "https://blackpast.org/african-american-history/miles-g-amos-1897-1995/",
+   "source": "BlackPast.org",
+   "date": "2026-11-09",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "We don’t need another data center",
+   "url": "https://www.dailykos.com/stories/2026/11/9/800125761/community/we-dont-need-another-data-center/",
+   "source": "Daily Kos",
+   "date": "2026-11-09",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Black inventors who helped shape the modern world | lovemoney.com",
+   "url": "https://www.lovemoney.com/galleryextended/580847/black-inventors-who-helped-shape-the-modern-world",
+   "source": "lovemoney.com",
+   "date": "2026-11-05",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "WEDNESDAY, Nov. 4, 2026",
+   "url": "https://www.koreatimes.co.kr/opinion/todayinhistory/20261103/wednesday-nov-4-2026",
+   "source": "The Korea Times",
+   "date": "2026-11-03",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Professor Sir Cato T. Laurencin Delivers Keynote Address at the National Academy of Inventors 15th Annual Conference",
+   "url": "https://today.uconn.edu/2026/10/professor-sir-cato-t-laurencin-delivers-keynote-address-at-the-national-academy-of-inventors-15th-annual-conference/",
+   "source": "UConn Today",
+   "date": "2026-10-26",
+   "summary": "",
+   "category": "Black Inventors & Patents",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "It’s Black History Month in The UK: 13 Black British History Icons You Need to Know",
+   "url": "https://www.theroot.com/its-black-history-month-in-the-uk-13-black-british-his-2000131541",
+   "source": "The Root",
+   "date": "2026-10-21",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "The Black women being left out of New York’s delivery debate",
+   "url": "https://thegrio.com/2026/10/06/the-black-women-being-left-out-of-new-yorks-delivery-debate/",
+   "source": "TheGrio",
+   "date": "2026-10-06",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Election Day: November 3 General Election",
+   "url": "https://sflcn.com/election-day-november-3-general-election/",
+   "source": "South Florida Caribbean News",
+   "date": "2026-11-03",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Carnival’s Marie McKenzie honored at Caribbean Anchor Awards",
+   "url": "https://sflcn.com/carnival-marie-mckenzie-honored-at-caribbean-anchor-awards/",
+   "source": "South Florida Caribbean News",
+   "date": "2026-11-07",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Beyond the headlines: Haitian-American entrepreneur Jonathan Pierre-Lafleur builds jobs, culture and community in Brooklyn",
+   "url": "https://www.caribbeanlife.com/beyond-the-headlines-haitian-american-entrepreneur-jonathan-pierre-lafleur-builds-jobs-culture-and-community-in-brooklyn/",
+   "source": "Caribbean Life News",
+   "date": "2026-11-05",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Chinese immigrant and Haitian American stylist partner in Queens hair store",
+   "url": "https://www.caribbeanlife.com/chinese-haitian-american-stylist-queens-hair/",
+   "source": "Caribbean Life News",
+   "date": "2026-10-28",
+   "summary": "",
+   "category": "Black Diaspora",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "‘Black Capital’ London Debut Connects Black Enterprises Directly With Investors",
+   "url": "https://www.blackenterprise.com/black-capital-london-debut/",
+   "source": "Black Enterprise",
+   "date": "2026-10-06",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Latino Founders moves into new Pearl District office",
+   "url": "https://www.bizjournals.com/portland/news/2026/10/12/latino-founders-new-office-park-blocks.html",
+   "source": "The Business Journals",
+   "date": "2026-10-12",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Why AfroTech Has Failed to Increase Black Representation in Tech",
+   "url": "https://emeraldbook.org/news/nov-1026-3/",
+   "source": "Emerald Book",
+   "date": "2026-11-11",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Hey Cleo lands $71.7K top prize at DMZ’s Black Innovation Summit",
+   "url": "https://app.dealroom.co/news/note/hey-cleo-lands-71-7k-top-prize-at-dmz-s-black-innovation-summit",
+   "source": "Dealroom",
+   "date": "2026-11-05",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Magna links Nigerian founders with venture capital investors",
+   "url": "https://punchng.com/magna-links-nigerian-founders-with-venture-capital-investors/",
+   "source": "Punch Newspapers",
+   "date": "2026-11-02",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Two London businesses win £25,000 each at KPMG’s Black Entrepreneurs’ Awards",
+   "url": "https://london-tv.co.uk/two-london-businesses-win-25000-each-at-kpmgs-black-entrepreneurs-awards/",
+   "source": "London TV",
+   "date": "2026-11-04",
+   "summary": "",
+   "category": "Capital Access & Investment",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Word In Black, AFRO News host symposium on state of Black business",
+   "url": "https://www.afro.com/business/word-in-black-afro-news-host-symposium-on-state-of-black-business-ed518362",
+   "source": "AFRO News",
+   "date": "2026-10-26",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "A Black Farmer Is Running to Become Louisiana’s Next U.S. Senator",
+   "url": "https://capitalbnews.org/louisiana-jamie-davis-senate/",
+   "source": "Capital B News",
+   "date": "2026-10-23",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Check out These Black-Owned Restaurants in the Nation’s Capital",
+   "url": "https://www.theroot.com/check-out-these-black-owned-restaurants-in-the-nations-2000129998",
+   "source": "The Root",
+   "date": "2026-10-11",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Your weekend plans: Daptoberfest, comedy, concerts and more",
+   "url": "https://www.axios.com/local/indianapolis/2026/10/23/weekend-plans-daptoberfest-comedy-concerts-crown-vic-racing",
+   "source": "Axios",
+   "date": "2026-10-23",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Today in history, October 20",
+   "url": "https://www.usatoday.com/story/news/history/2026/10/07/today-in-history-october-20/89614163007/",
+   "source": "USA Today",
+   "date": "2026-10-07",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Best Weed Brands in Illinois: 10 Cultivators Defining the Prairie State Market",
+   "url": "https://herb.co/guides/best-weed-brands-in-illinois",
+   "source": "Herb.co",
+   "date": "2026-11-09",
+   "summary": "",
+   "category": "State & Local",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Savannah gala honors legacy, family and Hispanic-owned businesses",
+   "url": "https://www.wjcl.com/article/savannah-hispanic-chamber-of-commerce-hosts-their-10th-annual-awards-gala/74366281",
+   "source": "WJCL",
+   "date": "2026-11-08",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "For Some Latino-Owned Businesses, Providing Food Is a Way to Support the South End",
+   "url": "https://southseattleemerald.org/news/2026/11/02/for-some-latino-owned-businesses-providing-food-is-a-way-to-support-the-south-end",
+   "source": "South Seattle Emerald",
+   "date": "2026-11-02",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Cash mobs around KC help bring attention to good food at minority businesses",
+   "url": "https://www.kansascity.com/latest-news/article317855942.html",
+   "source": "Kansas City Star",
+   "date": "2026-11-02",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Philadelphia’s Latino Businesses Are Booming, But Few Reach a First Hire",
+   "url": "https://philadelphia.today/2026/10/philadelphia-latino-businesses-first-hire/",
+   "source": "PHILADELPHIA.Today",
+   "date": "2026-10-30",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "From Sobremesa to Something New, Walmart Celebrates Latino Flavor at Billboard Latin Music Week",
+   "url": "https://www.billboard.com/music/features/walmart-celebrates-latino-flavor-at-billboard-latin-music-week-2026-1236371106/",
+   "source": "Billboard",
+   "date": "2026-10-30",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Pa. small businesses receive record $1.5B boost from Shapiro-Davis admin",
+   "url": "https://www.cpbj.com/pa-small-businesses-receive-record-1-5-billion-spending-boost-from-shapiro-davis-admin/",
+   "source": "Central Penn Business Journal",
+   "date": "2026-10-23",
+   "summary": "",
+   "category": "Hispanic & Latino Business",
    "collected": "2026-11-14"
   },
   {
    "title": "Federal Reserve Board Report Shows Huge Racial Income and Wealth Gaps",
    "url": "https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/",
-   "source": "Journal of Blacks in Higher Education",
+   "source": "The Journal of Blacks in Higher Education",
    "date": "2026-11-02",
-   "summary": "Breaks out 2025 median and mean income and wealth for Black and White families.",
-   "category": "Racial Wealth Gap",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Black Household Wealth Fell 25%, Per New Fed Data",
-   "url": "https://blavity.com/black-household-wealth-fell-25-percent-fed-data",
-   "source": "Blavity",
-   "date": "2026-10-20",
-   "summary": "CEPR analysis of the 2025 SCF, including the widening distance from the national median.",
-   "category": "Racial Wealth Gap",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the SCF",
-   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html",
-   "source": "Federal Reserve Board",
-   "date": "2023-10-18",
-   "summary": "The Fed’s own 1989–2022 series on wealth and ownership by race and ethnicity.",
-   "category": "Racial Wealth Gap",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Beyond Baker’s list: Black innovation then and now",
-   "url": "https://www.uspto.gov/blog/beyond-baker-rsquo-s-list",
-   "source": "U.S. Patent and Trademark Office",
-   "date": "",
-   "summary": "How Henry Baker’s lists documented early Black patent holders, with modern inventors.",
-   "category": "Black Inventors & Patents",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Black Inventors and Innovators report",
-   "url": "https://webcf.waybackmachine.org/web/20230329153711/https://invention.si.edu/sites/default/files/Lemelson-Center-Black-Inventors-Innovators-Report-updated-2021-10.pdf",
-   "source": "Smithsonian Lemelson Center",
-   "date": "2021-10",
-   "summary": "History of Black patenting, the barriers inventors faced, and counts from Baker to Sluby.",
-   "category": "Black Inventors & Patents",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Celebrating Black Inventors on World IP Day",
-   "url": "https://www.fr.com/wp-content/uploads/2021/04/04-23-21-NLJ-Celebrating-Black-Inventors-on-World-IP-Day-Davis.pdf",
-   "source": "National Law Journal / Fish & Richardson",
-   "date": "2021-04-23",
-   "summary": "Patent attorneys trace landmark Black inventions and the legal hurdles behind them.",
-   "category": "Black Inventors & Patents",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "African American Technological Contributions: Past, Present and Future",
-   "url": "https://www.nist.gov/speech-testimony/african-american-technological-contributions-past-present-and-future",
-   "source": "NIST",
-   "date": "",
-   "summary": "Federal testimony on Black contributions to American technology.",
-   "category": "Black Inventors & Patents",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "10 Caribbean American Women in Business to Support in 2024",
-   "url": "https://www.caribbeannationalweekly.com/posts/10-caribbean-american-women-in-business-to-support-in-2024",
-   "source": "Caribbean National Weekly",
-   "date": "2024-01-12",
-   "summary": "Profiles ten Caribbean American women running businesses across industries.",
-   "category": "Black Diaspora",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Opportunities for Caribbean and Caribbean-American owned businesses",
-   "url": "https://iadb.org/en/news/opportunities-caribbean-and-caribbean-american-owned-businesses",
-   "source": "Inter-American Development Bank",
-   "date": "",
-   "summary": "A Washington briefing connecting Caribbean and Caribbean-American entrepreneurs with local, federal and international buyers.",
-   "category": "Black Diaspora",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "12 Caribbean And Caribbean Roots Executives You Should Know",
-   "url": "https://newsamericasnow.com/caribbean-american-heritage-month-12-caribbean-and-caribbean-roots-executives-you-should-know",
-   "source": "News Americas Now",
-   "date": "2017-06-08",
-   "summary": "Corporate leaders born in the Caribbean or with Caribbean family roots.",
-   "category": "Black Diaspora",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Black founders received just 0.4% of all startup funding in 2024",
-   "url": "https://peopleofcolorintech.com/articles/black-founders-received-just-0-4-of-all-startup-funding-in-2024/",
-   "source": "POCIT (citing Crunchbase)",
-   "date": "2025-03-17",
-   "summary": "Black founders raised about $730 million of U.S. venture funding in 2024.",
-   "category": "Capital Access & Investment",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Startup funding share for Black founders down",
-   "url": "https://news.crunchbase.com/diversity/startup-funding-share-black-founders-down-cleantech-healthcare/",
-   "source": "Crunchbase News",
-   "date": "",
-   "summary": "Sector-by-sector look at the shrinking share of venture dollars to Black founders.",
-   "category": "Capital Access & Investment",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Latino founders accounted for 2% of all venture funding last year",
-   "url": "https://dot.la/tag/vcfamilia",
-   "source": "dot.LA",
-   "date": "2022-01-26",
-   "summary": "Latino investors respond to 2021 data on venture funding.",
-   "category": "Capital Access & Investment",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "African Americans in Business",
-   "url": "https://indyencyclopedia.org/african-americans-in-business/",
-   "source": "Encyclopedia of Indianapolis",
-   "date": "",
-   "summary": "Indianapolis Black business history from 1880s carriage makers to Mays Chemical.",
-   "category": "State & Local",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Warren Coleman (1849–1904), L-91",
-   "url": "https://www.dncr.nc.gov/blog/2024/01/16/warren-coleman-1849-1904-l-91",
-   "source": "N.C. Dept. of Natural and Cultural Resources",
-   "date": "2024-01-16",
-   "summary": "The first Black-owned and -operated textile mill in the nation, in Concord, N.C.",
-   "category": "State & Local",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Foodways to Freedom: African Heritage Entrepreneurs in Rhode Island",
-   "url": "https://www.rihs.org/?p=9240",
-   "source": "Rhode Island Historical Society",
-   "date": "",
-   "summary": "Caterers, cheesemakers and restaurateurs of 18th- and 19th-century Rhode Island.",
-   "category": "State & Local",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Hispanic-Owned Businesses",
-   "url": "https://census.gov/library/stories/2024/10/hispanic-owned-businesses.html",
-   "source": "U.S. Census Bureau",
-   "date": "2024-10",
-   "summary": "406,086 Hispanic-owned employer firms in 2021, led by construction and food service.",
-   "category": "Hispanic & Latino Business",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Hispanic-Owned Businesses on the Upswing",
-   "url": "https://www.census.gov/newsroom/blogs/random-samplings/2016/12/hispanic-owned_busin.html",
-   "source": "U.S. Census Bureau",
-   "date": "2016-12",
-   "summary": "Growth of Hispanic-owned firms in the last all-firms survey.",
-   "category": "Hispanic & Latino Business",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "2024 Diverse Founder Report",
-   "url": "https://harlem.capital/wp-content/uploads/2025/03/2024-HCP-Diverse-Founder-Report.pdf",
-   "source": "Harlem Capital",
-   "date": "2025-03",
-   "summary": "Venture dollars raised by Latino-led and Black-led startups, 2012–2024.",
-   "category": "Hispanic & Latino Business",
-   "collected": "2026-11-14"
-  },
-  {
-   "title": "Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860–2020",
-   "url": "https://www.nber.org/system/files/working_papers/w30101/w30101.pdf",
-   "source": "NBER",
-   "date": "2022",
-   "summary": "The longest-run estimate of the Black–White wealth gap, with projections.",
+   "summary": "",
    "category": "Research & Projections",
    "collected": "2026-11-14"
   },
   {
-   "title": "The Road to Zero Wealth",
-   "url": "https://www.coloradotrust.org/wp-content/uploads/sites/2/2017/11/road_to_zero_wealth.pdf",
-   "source": "Institute for Policy Studies & Prosperity Now",
-   "date": "2017-09",
-   "summary": "Trend projections for Black and Latino median wealth.",
+   "title": "Why Increasing Black Homeownership Is Not Enough to Improve the Racial Wealth Gap",
+   "url": "https://jbhe.com/2026/10/why-increasing-black-homeownership-is-not-enough-to-improve-racial-wealth-grap/",
+   "source": "The Journal of Blacks in Higher Education",
+   "date": "2026-10-19",
+   "summary": "",
    "category": "Research & Projections",
    "collected": "2026-11-14"
   },
   {
-   "title": "U.S. Wealth Inequality: Gaps Remain Despite Widespread Wealth Gains",
-   "url": "https://www.stlouisfed.org/open-vault/2024/feb/us-wealth-inequality-widespread-gains-gaps-remain",
-   "source": "St. Louis Fed",
-   "date": "2024-02",
-   "summary": "How 2019–2022 gains were shared across groups.",
+   "title": "The Economy Has Changed For Women Entrepreneurs. The Data Hasn’t Caught Up",
+   "url": "https://www.forbes.com/sites/nataliemadeiracofield/2026/10/13/the-economy-has-changed-for-women-entrepreneurs-the-data-hasnt-caught-up/",
+   "source": "Forbes",
+   "date": "2026-10-13",
+   "summary": "",
    "category": "Research & Projections",
    "collected": "2026-11-14"
   },
   {
-   "title": "Racial and Ethnic Inequalities in Household Wealth Persist",
-   "url": "https://libertystreeteconomics.newyorkfed.org/2024/06/racial-and-ethnic-inequalities-in-household-wealth-persist",
-   "source": "New York Fed, Liberty Street Economics",
-   "date": "2024-06",
-   "summary": "Tracks group wealth with the Fed’s quarterly distributional accounts.",
+   "title": "The Big Swings Necessary to Close the Racial Wealth Gap",
+   "url": "https://nextcity.org/urbanist-news/the-big-swings-necessary-to-close-the-racial-wealth-gap",
+   "source": "Next City",
+   "date": "2026-11-12",
+   "summary": "",
+   "category": "Research & Projections",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "32% of US Employer Businesses Generate at Least $1M in Revenue",
+   "url": "https://www.lendingtree.com/business/small/million-dollar-revenue-study/",
+   "source": "LendingTree",
+   "date": "2026-11-09",
+   "summary": "",
+   "category": "Research & Projections",
+   "collected": "2026-11-14"
+  },
+  {
+   "title": "Black-owned businesses impact in Charlotte ‘undeniable.’ New event aims to celebrate it",
+   "url": "https://www.charlotteobserver.com/news/business/article317885843.html",
+   "source": "Charlotte Observer",
+   "date": "2026-11-05",
+   "summary": "",
    "category": "Research & Projections",
    "collected": "2026-11-14"
   }

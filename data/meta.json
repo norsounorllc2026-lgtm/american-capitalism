@@ -2,69 +2,357 @@
  "lastUpdated": "2026-11-14",
  "lastRun": "2026-11-14",
  "status": "Baseline built from TimelineEvents.csv and web research",
- "alerts": [
-  "Help link may be broken: MBDA Business Centers (https://www.gao.gov/products/gao-26-107718)"
- ],
+ "alerts": [],
  "log": [
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Black-owned%22+OR+%22Black+business%2",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned%22+OR+%22Hispanic-owned%",
-  "[articles] State & Local: 6 new",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned+businesses%22+sourcecoun",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned+businesses%22+sourcecoun",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino-owned+businesses%22+sourcecoun",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Hispanic-owned+businesses%22+sourceco",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Hispanic-owned+businesses%22+sourceco",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Hispanic-owned+businesses%22+sourceco",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino+entrepreneurs%22+sourcecountry",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino+entrepreneurs%22+sourcecountry",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22Latino+entrepreneurs%22+sourcecountry",
-  "[articles] Hispanic & Latino Business: 6 new",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22racial+wealth+gap%22+report+study+sou",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22racial+wealth+gap%22+report+study+sou",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22racial+wealth+gap%22+report+study+sou",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22wealth+gap%22+projection+2050+Black+H",
-  "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22wealth+gap%22+projection+2050+Black+H",
   "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=%22wealth+gap%22+projection+2050+Black+H",
   "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=Census+%22Annual+Business+Survey%22+mino",
   "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=Census+%22Annual+Business+Survey%22+mino",
   "  HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc?query=Census+%22Annual+Business+Survey%22+mino",
+  "  decoded 13 of 13 Google News links",
   "[articles] Research & Projections: 6 new",
   "[homeownership] Q3 2026: {'white': 75.1, 'black': 44.4, 'hispanic': 48.1}",
   "[dfa] 2026:Q2: {'white': 82.4, 'black': 3.2, 'hispanic': 2.4, 'other': 12.1}",
   "[abs] no newer data year available",
-  "[people] 31 candidates queued for review",
-  "  HTTP 403 for https://www.gao.gov/products/gao-26-107718",
-  "  HTTP 403 for https://www.gao.gov/products/gao-26-107718",
-  "  HTTP 403 for https://www.gao.gov/products/gao-26-107718",
-  "[resources] 1 link(s) need review"
+  "[people] 32 candidates queued for review",
+  "[resources] 0 link(s) need review",
+  "  [unsure] https://www.ccny.cuny.edu/news/cuny-dsi-monograph-documents-dominican-heritage-of-first-settler (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.newsamericasnow.com/20-caribbean-immigrants-who-shaped-us-history (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.Britannica.com/biography/Paul-Cuffe (HTTP 403) in people.people.sources",
+  "  [bad] https://new.blackpast.org/?p=32371 (site not reachable) in people.people.sources",
+  "  [unsure] https://blackpast.org/aah/african-company-african-grove-theatre (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.britannica.com/topic/Freedoms-Journal (HTTP 403) in people.people.sources",
+  "  [bad] https://www.aip.org/sites/default/files/history/teaching-guides/african-american-inventors-work/Afri (HTTP 404) in people.people.sources",
+  "  [unsure] https://www.smithsonianmag.com/history/john-browns-famous-photograph-141898158/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://npg.si.edu/exh/awash/brown2.htm (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.loc.gov/collections/frederick-douglass-newspapers/about-this-collection (HTTP 403) in people.people.sources",
+  "  [unsure] https://invention.si.edu/invention-stories/black-inventors-and-innovators-new-perspectives (HTTP 403) in people.people.sources",
+  "  [unsure] https://thereader.mitpress.mit.edu/300-years-of-african-american-invention-and-innovation/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://docsteach.org/document/sarah-e-goodes-folding-beds/ (HTTP 429) in people.people.sources",
+  "  [bad] https://new.blackpast.org/?p=33213 (site not reachable) in people.people.sources",
+  "  [unsure] https://blackpast.org/aah/mound-bayou-1887 (HTTP 403) in people.people.sources",
+  "  [unsure] https://blackpast.org/african-american-history/true-reformers-bank-1888-1910 (HTTP 403) in people.people.sources",
+  "  [bad] https://new.blackpast.org/?p=37242 (site not reachable) in people.people.sources",
+  "  [bad] https://en.wikipedia.org/wiki/John_Lee_Love (HTTP 404) in people.people.sources",
+  "  [unsure] https://www.pbs.org/blackpress/news_bios/defender.html (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.kansascityfed.org/oklahomacity/oklahoma-economist/oklahoma-economist-the-past-present-an (ReadTimeout) in people.people.sources",
+  "  [bad] https://webcf.waybackmachine.org/web/20230329153711/https://invention.si.edu/sites/default/files/Lem (site not reachable) in people.people.sources",
+  "  [bad] https://en.wikipedia.org/wiki/Shelby_Davidson (HTTP 404) in people.people.sources",
+  "  [unsure] https://www.philanthropyroundtable.org/hall-of-fame/madam-c-j-walker/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.blackpast.org/african-american-history/lincoln-motion-picture-company (HTTP 403) in people.people.sources",
+  "  [bad] https://new.blackpast.org/aah/black-star-line-1919-1923 (site not reachable) in people.people.sources",
+  "  [unsure] https://ethw.org/Garrett_A._Morgan (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.britannica.com/topic/New-York-Rens (HTTP 403) in people.people.sources",
+  "  [unsure] https://mississippitoday.org/2024/01/21/on-this-day-in-1921-george-washington-carver-testified-befor (HTTP 403) in people.people.sources",
+  "  [unsure] https://encyclopediaofalabama.org/?p=2433 (HTTP 403) in people.people.sources",
+  "  [unsure] https://blackpast.org/aah/ebony-magazine (HTTP 403) in people.people.sources",
+  "  [bad] https://new.blackpast.org/african-american-history/blayton-sr-jesse-b-1897-1977 (site not reachable) in people.people.sources",
+  "  [unsure] https://encyclopediaofalabama.org/article/a-g-gaston/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.cbsnews.com/detroit/news/motown-records-berry-gordy-founded-in-detroit-1959-this-day-in- (HTTP 406) in people.people.sources",
+  "  [unsure] https://cst.princeton.edu/people/marie-van-brittan-brown (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.blackpast.org/african-american-history/black-enterprise-1970/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.blackpast.org/african-american-history/essence-magazine-1970/ (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.britannica.com/EBchecked/topic/914280 (HTTP 403) in people.people.sources",
+  "  [unsure] https://invention.si.edu/invention-stories/lost-histories-african-american-inventors (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.womenshistory.org/education-resources/biographies/patricia-bath (HTTP 403) in people.people.sources",
+  "  [unsure] https://www.bakingbusiness.com/articles/33203-golden-krust-founder-dies (HTTP 403) in people.people.sources",
+  "  [bad] https://en.wikipedia.org/wiki/Lisa_Price (HTTP 404) in people.people.sources",
+  "  [unsure] https://vnews.com/2019/05/19/speaker-stuns-morehouse-grads-to-pay-off-40m-student-debt-25662836/ (HTTP 429) in people.people.sources",
+  "  [unsure] https://patents.justia.com/inventor/janet-emerson-bashen (HTTP 403) in people.people.sources",
+  "  [unsure] https://patents.justia.com/inventor/lanny-smoot (HTTP 403) in people.people.sources",
+  "  [unsure] https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/ (HTTP 403) in wealth.scf.sources.url",
+  "  [unsure] https://www.census.gov/quickfacts/fact/table/US/PST045223 (HTTP 403) in business.populationShare.source.url",
+  "  [unsure] https://fred.stlouisfed.org/series/BOAAAHORUSQ156N (ReadTimeout) in business.homeownershipLatest.source.url",
+  "  [unsure] https://stlouisfed.org/on-the-economy/2014/july/wealth-share-of-hispanic-population-may-triple-by-20 (ReadTimeout) in business.externalProjections.url",
+  "[links] checked 216 source links: 10 broken, 38 could not be confirmed"
+ ],
+ "linkReport": [
+  {
+   "url": "https://www.ccny.cuny.edu/news/cuny-dsi-monograph-documents-dominican-heritage-of-first-settler",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.newsamericasnow.com/20-caribbean-immigrants-who-shaped-us-history",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.Britannica.com/biography/Paul-Cuffe",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://new.blackpast.org/?p=32371",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://blackpast.org/aah/african-company-african-grove-theatre",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.britannica.com/topic/Freedoms-Journal",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.aip.org/sites/default/files/history/teaching-guides/african-american-inventors-work/African%20American%20Inventors%20in%20History_Patents%20List.pdf",
+   "where": "people.people.sources",
+   "problem": "HTTP 404",
+   "status": "bad"
+  },
+  {
+   "url": "https://www.smithsonianmag.com/history/john-browns-famous-photograph-141898158/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://npg.si.edu/exh/awash/brown2.htm",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.loc.gov/collections/frederick-douglass-newspapers/about-this-collection",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://invention.si.edu/invention-stories/black-inventors-and-innovators-new-perspectives",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://thereader.mitpress.mit.edu/300-years-of-african-american-invention-and-innovation/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://docsteach.org/document/sarah-e-goodes-folding-beds/",
+   "where": "people.people.sources",
+   "problem": "HTTP 429",
+   "status": "unsure"
+  },
+  {
+   "url": "https://new.blackpast.org/?p=33213",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://blackpast.org/aah/mound-bayou-1887",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://blackpast.org/african-american-history/true-reformers-bank-1888-1910",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://new.blackpast.org/?p=37242",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/John_Lee_Love",
+   "where": "people.people.sources",
+   "problem": "HTTP 404",
+   "status": "bad"
+  },
+  {
+   "url": "https://www.pbs.org/blackpress/news_bios/defender.html",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.kansascityfed.org/oklahomacity/oklahoma-economist/oklahoma-economist-the-past-present-and-future-of-black-wall-street/",
+   "where": "people.people.sources",
+   "problem": "ReadTimeout",
+   "status": "unsure"
+  },
+  {
+   "url": "https://webcf.waybackmachine.org/web/20230329153711/https://invention.si.edu/sites/default/files/Lemelson-Center-Black-Inventors-Innovators-Report-updated-2021-10.pdf",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Shelby_Davidson",
+   "where": "people.people.sources",
+   "problem": "HTTP 404",
+   "status": "bad"
+  },
+  {
+   "url": "https://www.philanthropyroundtable.org/hall-of-fame/madam-c-j-walker/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.blackpast.org/african-american-history/lincoln-motion-picture-company",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://new.blackpast.org/aah/black-star-line-1919-1923",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://ethw.org/Garrett_A._Morgan",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.britannica.com/topic/New-York-Rens",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://mississippitoday.org/2024/01/21/on-this-day-in-1921-george-washington-carver-testified-before-congress/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://encyclopediaofalabama.org/?p=2433",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://blackpast.org/aah/ebony-magazine",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://new.blackpast.org/african-american-history/blayton-sr-jesse-b-1897-1977",
+   "where": "people.people.sources",
+   "problem": "site not reachable",
+   "status": "bad"
+  },
+  {
+   "url": "https://encyclopediaofalabama.org/article/a-g-gaston/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.cbsnews.com/detroit/news/motown-records-berry-gordy-founded-in-detroit-1959-this-day-in-history",
+   "where": "people.people.sources",
+   "problem": "HTTP 406",
+   "status": "unsure"
+  },
+  {
+   "url": "https://cst.princeton.edu/people/marie-van-brittan-brown",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.blackpast.org/african-american-history/black-enterprise-1970/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.blackpast.org/african-american-history/essence-magazine-1970/",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.britannica.com/EBchecked/topic/914280",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://invention.si.edu/invention-stories/lost-histories-african-american-inventors",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.womenshistory.org/education-resources/biographies/patricia-bath",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.bakingbusiness.com/articles/33203-golden-krust-founder-dies",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Lisa_Price",
+   "where": "people.people.sources",
+   "problem": "HTTP 404",
+   "status": "bad"
+  },
+  {
+   "url": "https://vnews.com/2019/05/19/speaker-stuns-morehouse-grads-to-pay-off-40m-student-debt-25662836/",
+   "where": "people.people.sources",
+   "problem": "HTTP 429",
+   "status": "unsure"
+  },
+  {
+   "url": "https://patents.justia.com/inventor/janet-emerson-bashen",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://patents.justia.com/inventor/lanny-smoot",
+   "where": "people.people.sources",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://jbhe.com/2026/11/federal-reserve-board-report-shows-huge-racial-income-and-wealth-gaps/",
+   "where": "wealth.scf.sources.url",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://www.census.gov/quickfacts/fact/table/US/PST045223",
+   "where": "business.populationShare.source.url",
+   "problem": "HTTP 403",
+   "status": "unsure"
+  },
+  {
+   "url": "https://fred.stlouisfed.org/series/BOAAAHORUSQ156N",
+   "where": "business.homeownershipLatest.source.url",
+   "problem": "ReadTimeout",
+   "status": "unsure"
+  },
+  {
+   "url": "https://stlouisfed.org/on-the-economy/2014/july/wealth-share-of-hispanic-population-may-triple-by-2025",
+   "where": "business.externalProjections.url",
+   "problem": "ReadTimeout",
+   "status": "unsure"
+  }
  ]
 }
